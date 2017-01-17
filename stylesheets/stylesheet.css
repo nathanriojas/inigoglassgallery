@@ -2,12 +2,35 @@
   box-sizing: border-box; }
 
 body {
+  background-color:black;
   padding: 0;
   margin: 0;
+  width:10%;
+  height: 40%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: rgb(39, 43, 44); }
+body::after{
+  content: "";
+  display: inline-block;
+  margin: 10% 10% 10% 10%;
+  background: url("/IMG_1647.png") no-repeat center center fixed;
+  opacity: 1;
+  background-repeat: none;
+  /*
+  -webkit-background-size:cover;
+  -moz-background-size:cover;
+  -o-background-size:cover;
+  background-size:cover;
+  */
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+
+}
 ul {
     list-style: none;
     width: 100%;
