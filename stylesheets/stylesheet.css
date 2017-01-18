@@ -11,19 +11,14 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: rgb(39, 43, 44); }
+
 body::after{
   content: "";
   display: inline-block;
   margin: 10% 10% 10% 10%;
   background: url("/IMG_1647.png") no-repeat center center fixed;
-  opacity: 1;
+  opacity: .3;
   background-repeat: none;
-  /*
-  -webkit-background-size:cover;
-  -moz-background-size:cover;
-  -o-background-size:cover;
-  background-size:cover;
-  */
   top: 0;
   left: 0;
   bottom: 0;
@@ -31,6 +26,21 @@ body::after{
   position: absolute;
 
 }
+@media screen and (min-width: 64em) {
+  body::after {
+    background-size: 50%;
+  }}
+
+@media screen and (min-width: 30em) and (max-width: 64em) {
+  body::after {
+    background-size: 65%;
+    }}
+
+@media screen and (max-width: 30em) {
+  body::after {
+    background-size: 75%;
+    }}
+
 ul {
     list-style: none;
     width: 100%;
