@@ -5,7 +5,7 @@ body {
   background-color:black;
   padding: 0;
   margin: 0;
-  width:10%;
+  width:100%;
   height: 40%;
   font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
@@ -17,30 +17,47 @@ body::after{
   display: inline-block;
   margin: 10% 10% 10% 10%;
   background: url("/IMG_1647.png") no-repeat center center fixed;
-  opacity: .3;
+  opacity: .4;
   background-repeat: none;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   position: absolute;
-
+  z-index:-1;
 }
 @media screen and (min-width: 64em) {
   body::after {
     background-size: 45%;
+  }
+  div#Coming
+  {
+    font-size: 4rem;
+    margin: 8% 0% 10% 0%;
+
   }}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   body::after {
     background-size: 55%;
-    }}
+    }
+    div#Coming
+  {
+    font-size: 3rem;
+    margin: 15% 0% 10% 0%;
+
+  }}
 
 @media screen and (max-width: 42em) {
   body::after {
     background-size: 70%;
-    }}
+    }
+    div#Coming
+  {
+    font-size: 2.5rem;
+    margin: 25% 0% 10% 0%;
 
+  }}
 ul {
     list-style: none;
     width: 100%;
@@ -84,6 +101,17 @@ li a:hover{
     padding: 1.1rem 1.2rem 1.1rem .2rem; 
     text-decoration: none;
     border-radius: 1em;
+}
+div#Coming{
+  color:white;
+  width: 100%;
+  text-align:center;
+  font-size:  3em;
+  font-family:  serif;
+  border-width: thick;
+  border-color:black;
+  border-style:solid;
+  margin: 8% 0% 10% 0%;
 }
 /*
 @media and (min-width 42em){
