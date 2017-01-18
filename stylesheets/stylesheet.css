@@ -28,17 +28,17 @@ body::after{
 }
 @media screen and (min-width: 64em) {
   body::after {
-    background-size: 50%;
+    background-size: 45%;
   }}
 
-@media screen and (min-width: 30em) and (max-width: 64em) {
+@media screen and (min-width: 42em) and (max-width: 64em) {
   body::after {
-    background-size: 65%;
+    background-size: 55%;
     }}
 
-@media screen and (max-width: 30em) {
+@media screen and (max-width: 42em) {
   body::after {
-    background-size: 75%;
+    background-size: 70%;
     }}
 
 ul {
