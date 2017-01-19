@@ -77,7 +77,12 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: center;
-    background-color: #000000;
+    background-image: -webkit-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image: -moz-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image: -ms-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image: -o-linear-gradient(top,rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image:  linear-gradient(to bottom, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+ 
  
   
  
@@ -85,13 +90,23 @@ ul {
 
 li {
     display: inline-block;
-    width: 24%;
+    width: 17%;
     height:-100%;
     margin: 0% 0% 0% 0%;
     padding:0;
     border-radius: 1em;
 
 }
+
+li.icons{
+
+  float:left
+}
+li.noIcon{
+  float:right
+
+}
+
 a {
   color: rgb(16, 16, 16);
   text-align: right;
