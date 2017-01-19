@@ -12,6 +12,16 @@ body {
   line-height: 1.5;
   color: rgb(39, 43, 44); }
 
+ @-webkit-keyframes comingAnimation {
+    from {color: rgba(16, 16, 16, 0.99);}
+    to {color: #ffffff;}
+}
+
+/* Standard syntax */
+@keyframes comingAnimation {
+    from {color: rgba(16, 16, 16, 0.99);}
+    to {color: #ffffff;}
+}
 body::after{
   content: "";
   display: inline-block;
@@ -113,6 +123,10 @@ div#Coming{
   border-color:black;
   border-style:solid;
   margin: 8% 0% 10% 0%;
+  -webkit-animation-name: comingAnimation; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+    animation-name: comingAnimation;
+    animation-duration: 6s;
 }
 /*
 @media and (min-width 42em){
