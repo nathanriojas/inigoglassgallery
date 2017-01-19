@@ -43,7 +43,7 @@ body::after{
   div#Coming
   {
     font-size: 4rem;
-    margin: 8% 0% 10% 0%;
+    margin: 12% 0% 10% 0%;
 
   }}
 
@@ -53,19 +53,19 @@ body::after{
     }
     div#Coming
   {
-    font-size: 3rem;
-    margin: 15% 0% 10% 0%;
+    font-size: 3.8rem;
+    margin: 17% 0% 10% 0%;
 
   }}
 
 @media screen and (max-width: 42em) {
   body::after {
-    background-size: 70%;
+    background-size: 80%;
     }
     div#Coming
   {
-    font-size: 1.75rem;
-    margin: 17% 0% 10% 0%;
+    font-size: 2.1rem;
+    margin: 57% 0% 10% 0%;
 
   }}
 ul {
@@ -118,14 +118,14 @@ li a{
     display: block;
     color: white;
     font-size: 1.1;
-    padding: .2rem .5rem .2rem .5rem; 
+    padding: .7rem .5rem .5rem .5rem; 
     text-decoration:none;
     margin:0;
     border-radius: 1rem;
 }
 li a:hover{
     background-color: #383632;
-    padding: .2rem .5rem .2rem .5rem; 
+    padding: .7rem .5rem .5rem .5rem; 
     text-decoration: none;
     border-radius: 0.2em;
 }
@@ -133,12 +133,12 @@ div#Coming{
   color:white;
   width: 100%;
   text-align:center;
-  font-size:  3em;
+  
   font-family:  serif;
   border-width: thick;
   border-color:black;
   border-style:none;
-  margin: 8% 0% 10% 0%;
+
   -webkit-animation-name: comingAnimation; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
     animation-name: comingAnimation;
