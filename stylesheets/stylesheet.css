@@ -121,7 +121,7 @@ div#Coming{
   font-family:  serif;
   border-width: thick;
   border-color:black;
-  border-style:solid;
+  border-style:none;
   margin: 8% 0% 10% 0%;
   -webkit-animation-name: comingAnimation; /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
