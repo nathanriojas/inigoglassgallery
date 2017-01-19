@@ -124,10 +124,7 @@ li a{
     border-radius: 1rem;
 }
 li a:hover{
-    background-color: #686a6b;
-    moz-box-shadow: 15px 10px 6px 1px #053652;
-    -webkit-box-shadow: 15px 10px 6px 1px #053652;
-    box-shadow: 15px 10px 6px 1px #5c6061;
+    background-color: #383632;
     padding: .2rem 1.2rem .2rem 1.2rem; 
     text-decoration: none;
     border-radius: 0.2em;
