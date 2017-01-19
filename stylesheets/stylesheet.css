@@ -25,7 +25,7 @@ body {
 body::after{
   content: "";
   display: inline-block;
-  margin: 10% 10% 10% 10%;
+  margin: 0% 10% 0% 10%;
   background: url("/IMG_1647.png") no-repeat center center fixed;
   opacity: .4;
   background-repeat: none;
@@ -69,6 +69,8 @@ body::after{
 
   }}
 ul {
+    top:0;
+    position:absolute;
     list-style: none;
     width: 100%;
     margin: 0% 0% 0% 0%;
@@ -76,6 +78,8 @@ ul {
     overflow: hidden;
     text-align: center;
     background-color: #000000;
+ 
+  
  
   }
 
