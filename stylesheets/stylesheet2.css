@@ -9,9 +9,7 @@ body {
   margin-top:20%;
   margin-right:27%;
   margin-left:27%;
-
- 
-  font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
   color: rgb(224, 234, 236);  }
@@ -43,42 +41,70 @@ body::after{
 }
 @media screen and (min-width: 64em) {
   body::after {
-    background-size: 55%;
-    background-position:center;
+    background-size: 45%;
   }
   div#Coming
   {
-    font-size: 4rem;
-    margin: 8% 0% 10% 0%;
+    font-size: 3.4rem;
+    margin: 12% 0% 10% 0%;
 
-  }}
+  }
+  li{
+    width:17%;
+  }
+  li a{
+     font-size: .90rem;
+  }
+  li a:hover{
+    
+    padding: .7rem .5rem .5rem .1rem;  
+  }
+}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   body::after {
     background-size: 55%;
-    background-position:center;
     }
     div#Coming
   {
     font-size: 3rem;
-    margin: 15% 0% 10% 0%;
+    margin: 17% 0% 10% 0%;
 
-  }}
+  }
+  li{
+    width:17%;
+  }
+  li a{
+     font-size: .88rem;
+  }
+  li a:hover{
+    
+    padding: .7rem .5rem .5rem .1rem;  
+  }
+  }
 
 @media screen and (max-width: 42em) {
   body::after {
-    background-size: 70%;
-    background-position:center;
+    background-size: 80%;
     }
     div#Coming
   {
-    font-size: 1.75rem;
-    margin: 17% 0% 10% 0%;
+    font-size: 2.1rem;
+    margin: 35% 0% 10% 0%;
 
+  }
+  li{
+    width:24%;
+  }
+  li a{
+     font-size: .8rem;
+  }
+  li a:hover{
+    padding: .7rem .5rem .5rem .45rem;  
   }}
+
 ul {
     top:0;
-    left:0;
     position:absolute;
     list-style: none;
     width: 100%;
@@ -86,25 +112,19 @@ ul {
     padding: 0;
     overflow: hidden;
     text-align: center;
-    background-image: -webkit-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -moz-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -ms-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -o-linear-gradient(top,rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image:  linear-gradient(to bottom, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
- 
- 
-  
- 
+    background-color:rgba(68, 63, 29, 0.82);
+    background-image: -webkit-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -moz-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -ms-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -o-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image:  linear-gradient(to bottom, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
   }
 
 li {
     display: inline-block;
-    width: 17%;
-    height:-100%;
     margin: 0% 0% 0% 0%;
-    
+    padding:0;
     border-radius: 1em;
-
 }
 
 li.icons{
@@ -119,23 +139,25 @@ li.noIcon{
 a {
   color: rgb(16, 16, 16);
   text-align: right;
-  text-decoration: none; 
-  }
+  text-decoration: none; }
   a:hover {
     text-decoration: underline; }
 li a{
     text-align:center;
     display: block;
     color: white;
-    font-size: 1.1;
-    padding: .5rem .5rem .5rem .5rem; 
+    padding: .7rem .5rem .5rem .5rem; 
     text-decoration:none;
     margin:0;
     border-radius: 1rem;
 }
 li a:hover{
-    background-color: #383632;
-    padding: .5rem .5rem .5rem .5rem; 
+    background-color:rgba(68, 63, 29, 0.82);
+    background-image: -webkit-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -moz-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -ms-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -o-linear-gradient(top,rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image:  linear-gradient(to bottom, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
     text-decoration: none;
     border-radius: 0.2em;
 }
