@@ -109,10 +109,10 @@ ul {
     overflow: hidden;
     text-align: center;
     background-color:rgba(68, 63, 29, 0.82);
-    background-image: -webkit-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -moz-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -ms-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -o-linear-gradient(top,rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image: -webkit-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -moz-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -ms-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+    background-image: -o-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
     background-image:  linear-gradient(to bottom, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
  
  
@@ -154,10 +154,10 @@ li a{
 }
 li a:hover{
     background-color:rgba(68, 63, 29, 0.82);
-    background-image: -webkit-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -moz-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -ms-linear-gradient(top, rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
-    background-image: -o-linear-gradient(top,rgba(51, 49, 46, 0.97), rgba(160, 112, 19, 0.87));
+    background-image: -webkit-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -moz-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -ms-linear-gradient(top, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
+    background-image: -o-linear-gradient(top,rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
     background-image:  linear-gradient(to bottom, rgba(12, 4, 4, 0.97), rgba(23, 82, 39, 0.87));
     text-decoration: none;
     border-radius: 0.2em;
