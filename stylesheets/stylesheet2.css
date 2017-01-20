@@ -6,7 +6,7 @@ body {
   background-color:black;
   left:0;
   right: 0;
-  margin-top:20%;
+  margin-top:15%;
   margin-right:27%;
   margin-left:27%;
   font-family: font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -14,6 +14,13 @@ body {
   line-height: 1.5;
   color: rgb(224, 234, 236);  }
 
+#About{
+  text-align:center;
+}
+#Summary{
+  text-align:center;
+  
+}
  @-webkit-keyframes comingAnimation {
     from {color: rgba(16, 16, 16, 0.99);}
     to {color: #ffffff;}
@@ -57,7 +64,7 @@ body::after{
   }
   li a:hover{
     
-    padding: .7rem .5rem .5rem .1rem;  
+    padding: .7rem .5rem .5rem 0rem;  
   }
 }
 
@@ -79,7 +86,7 @@ body::after{
   }
   li a:hover{
     
-    padding: .7rem .5rem .5rem .1rem;  
+    padding: .7rem .5rem .5rem 0rem;  
   }
   }
 
@@ -104,10 +111,12 @@ body::after{
   }}
 
 ul {
+    font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
     top:0;
     left:0;
     position:absolute;
     list-style: none;
+    line-height:2.5;
     width: 100%;
     margin: 0% 0% 0% 0%;
     padding: 0;
