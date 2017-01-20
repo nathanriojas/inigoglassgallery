@@ -6,11 +6,8 @@ body {
   background-color:black;
   left:0;
   right: 0;
-  margin-top:15%;
-  margin-right:27%;
-  margin-left:27%;
   font-family: font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  
   line-height: 1.5;
   color: rgb(224, 234, 236);  }
 
@@ -47,6 +44,13 @@ body::after{
   z-index:-1;
 }
 @media screen and (min-width: 64em) {
+  body{
+    margin-top:7%;
+    margin-right:28%;
+    margin-left:28%;
+    font-size: 16px;
+
+  }
   body::after {
     background-size: 45%;
   }
@@ -69,6 +73,12 @@ body::after{
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+  body{
+    margin-top:10%;
+    margin-right:23%;
+    margin-left:23%;
+    font-size: 16px;
+  }
   body::after {
     background-size: 55%;
     }
@@ -91,6 +101,12 @@ body::after{
   }
 
 @media screen and (max-width: 42em) {
+  body{
+    margin-top:25%;
+    margin-right:20%;
+    margin-left:20%;
+    font-size: 13px;
+  }
   body::after {
     background-size: 80%;
     }
