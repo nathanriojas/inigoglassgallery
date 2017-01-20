@@ -105,6 +105,7 @@ body::after{
 
 ul {
     top:0;
+    left:0;
     position:absolute;
     list-style: none;
     width: 100%;
