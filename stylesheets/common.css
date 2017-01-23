@@ -16,6 +16,9 @@
 }
 
 @media screen and (min-width: 64em) {
+  body {
+    line-height:1.8;
+  }
   body::after {
     background-size: 45%;
   }
@@ -38,6 +41,9 @@
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
+  body {
+    line-height:1.8;
+  }
   body::after {
     background-size: 55%;
     }
@@ -60,6 +66,9 @@
   }
 
 @media screen and (max-width: 42em) {
+  body {
+    line-height:1.8;
+  }
   body::after {
     background-size: 80%;
     }
