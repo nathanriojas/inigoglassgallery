@@ -79,10 +79,10 @@ li a:hover{
 
   }
   #About{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   #Summary{
-    font-size: .9rem;
+    font-size: 1rem;
     line-height:1.5rem;
   }
   li{
@@ -90,7 +90,7 @@ li a:hover{
     width:17%;
   }
   li a{
-     font-size: .8rem;
+     font-size: .85rem;
   }
   li a:hover{
     
