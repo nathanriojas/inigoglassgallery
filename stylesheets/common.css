@@ -1,3 +1,6 @@
+@import "compass/css3";
+
+
 * {
   box-sizing: border-box; }
 ul {
@@ -205,5 +208,36 @@ li a:hover{
   transform: translate(-50%, -50%);
   box-shadow: .55rem -.55rem 0 -.35rem #151515;
 
+}
+
+
+#Email {
+  margin: 110px auto;
+  background-color: #FFF;
+  position: relative;
+  height: 70px;
+  width: 100px;
+  overflow: hidden;
+  #Email:before, #Email:after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    height: 60px;
+    width: 60px;
+    transform: rotate(45deg) skew(-5deg,-5deg);
+    margin-left: -50px;
+    height: 100px;
+    width: 100px;
+
+    background-color: #FFF;
+  }
+  #Email:before {
+    bottom: -100%;
+    box-shadow: -5px -5px 0 0 #EBABAB;
+  }
+  #Email:after {
+    top: -95%;
+    box-shadow: 5px 5px 0 0 #EBABAB;
+  }
 }
 */
