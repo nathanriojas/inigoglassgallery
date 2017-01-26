@@ -96,6 +96,16 @@ li a:hover{
     
     padding: .7rem .5rem .5rem 0rem;  
   }
+  #Instagram {
+    top:92%;
+    left:47%;
+
+  }
+  #Email{
+    top: 92.2%;
+    left: 52%;
+    
+  }
 }
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
@@ -129,6 +139,16 @@ li a:hover{
     
     padding: .7rem .5rem .5rem 0rem;  
   }
+  #Instagram {
+    top:92%;
+    left:45%;
+
+  }
+  #Email{
+    top: 92.2%;
+    left: 52%;
+    
+  }
   }
 
 @media screen and (max-width: 42em) {
@@ -154,7 +174,19 @@ li a:hover{
   }
   li a:hover{
     padding: .7rem .5rem .5rem .45rem;  
-  }}
+  }
+
+  #Instagram {
+    top:90%;
+    left:45%;
+
+  }
+  #Email{
+    top: 90.2%;
+    left: 52%;
+
+  }
+  }
 
                                   /*    Animations   */
  @-webkit-keyframes comingAnimation {
@@ -166,14 +198,11 @@ li a:hover{
     from {color: rgba(16, 16, 16, 0.99);}
     to {color: #ffffff;}
 }
-/*
+
 #Instagram {
   overflow: hidden;
-  top:90%;
-  left:46%;
   translate(-50%, -50%);
   position: absolute;
-  
   width: 5vmin;
   height: 5vmin;
   border-radius: 20%;
@@ -208,33 +237,36 @@ li a:hover{
 }
 
 
-#Email {
-  margin: 110px auto;
-  background-color: #FFF;
-  position: relative;
-  height: 70px;
-  width: 100px;
-  overflow: hidden;
-  #Email:before, #Email:after {
-    content: '';
-    position: absolute;
-    left: 50%;
-    height: 60px;
-    width: 60px;
-    transform: rotate(45deg) skew(-5deg,-5deg);
-    margin-left: -50px;
-    height: 100px;
-    width: 100px;
-
-    background-color: #FFF;
-  }
-  #Email:before {
-    bottom: -100%;
-    box-shadow: -5px -5px 0 0 #EBABAB;
-  }
-  #Email:after {
-    top: -95%;
-    box-shadow: 5px 5px 0 0 #EBABAB;
-  }
+#Email{
+    position:absolute;
+    width: 6vmin;
+    height: 5vmin;
+    border-radius: 9%;
+    background-color: rgb(194, 158, 86);
+    overflow: hidden;
+    
 }
-*/
+
+.Email-top {
+    z-index: 50;
+    position: relative;
+    width: 5vmin;
+    height: 5vmin;
+    background: rgb(123, 88, 16);
+    transform: rotate(45deg);
+    top: -50%;
+    left: 9%;
+    box-shadow: 5px 0px 4px rgba(113, 84, 17, 0.4);
+}
+
+.Email-bottom {
+    z-index: 20;
+    position: relative;
+    width: 5vmin;
+    height: 5vmin;
+    background: rgba(127, 59, 15, 0.43);
+    transform: rotate(45deg);
+    top: -50%;
+    left: 10%;
+    box-shadow: 5px 0px 4px rgba(218, 48, 0, 0.4);
+}
