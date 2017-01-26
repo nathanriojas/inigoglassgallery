@@ -169,20 +169,17 @@ li a:hover{
 /*
 #Instagram {
   overflow: hidden;
-  
-  top:70%;
+  top:90%;
   left:46%;
   translate(-50%, -50%);
-  color:#bbb4b4;
-
   position: absolute;
   
-  width: 8vmin;
-  height: 8vmin;
+  width: 5vmin;
+  height: 5vmin;
   border-radius: 20%;
   padding: 0;
   background: #000000;
-  background-image:  linear-gradient(to bottom, rgba(97, 59, 8, 0.97), rgba(228, 193, 0, 0.93));
+  background-image:  linear-gradient(to bottom, rgba(229, 142, 25, 0.97), rgb(155, 155, 151));
 }
 #Instagram:after,
 #Instagram:before {
@@ -191,9 +188,9 @@ li a:hover{
   position: absolute;
   top: 50%;
   left: 50%;
-  width: 55%;
-  height: 55%;
-  border: .2rem solid #f8f0f0;
+  width: 60%;
+  height: 60%;
+  border: .2rem solid #201e1e;
   transform: translate(-50%, -50%);
   content: '';
 }
@@ -205,7 +202,8 @@ li a:hover{
   width: 20%;
   height: 20%;
   border-radius: 50%;
-  box-shadow: .55rem -.55rem 0 -.35rem #f7f4f4;
+  transform: translate(-50%, -50%);
+  box-shadow: .55rem -.55rem 0 -.35rem #151515;
 
 }
 */
