@@ -74,7 +74,7 @@ li a:hover{
   }
   div#Coming
   {
-    font-size: 3.4rem;
+    font-size: 3rem;
     margin: 12% 0% 10% 0%;
 
   }
@@ -105,9 +105,9 @@ li a:hover{
   body::after {
     background-size: 55%;
     }
-    div#Coming
+  div#Coming
   {
-    font-size: 3rem;
+    font-size: 2.5rem;
     margin: 17% 0% 10% 0%;
 
   }
@@ -140,7 +140,7 @@ li a:hover{
     }
     div#Coming
   {
-    font-size: 1.9rem;
+    font-size: 1.6rem;
     margin: 35% 0% 10% 0%;
 
   }
