@@ -281,15 +281,25 @@ li a:hover{
   div#Instagram {
     top:90%;
     left:40%;
-    
-
+    width: 33px;
+    height: 33px;
   }
   div#Email{
     top: 90.2%;
     left: 52%;
-
+    width: 35px;
+    height: 32px;
   }
-
+ 
+  .Email-top{
+    width:31px;
+    height: 33px;
+  }
+  .Email-bottom{
+    width: 18px;
+    height: 33px;
+  }
+}
                                   /*    Animations   */
  @-webkit-keyframes comingAnimation {
     from {color: rgba(16, 16, 16, 0.99);}
