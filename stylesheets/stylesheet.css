@@ -29,6 +29,7 @@ div#Coming{
   color:white;
   width: 100%;
   text-align:center;
+  text-transform: uppercase;
   line-height:1.25;
   font-family:  'Aldrich', sans-serif;
   border-width: thick;
