@@ -11,7 +11,6 @@ body {
 body::after{
   content: "";
   display: inline-block;
-  margin: 0% 10% 0% 10%;
   background: url("/IMG_1647.png") no-repeat center center fixed;
   background-position:center;
   opacity: .2;
