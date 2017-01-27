@@ -99,7 +99,7 @@ li a:hover{
   height: 20%;
   border-radius: 50%;
   transform: translate(-50%, -50%);
-  box-shadow: .55rem -.55rem 0 -.35rem #151515;
+  box-shadow: .5rem -.5rem 0 -.3rem #151515;
 
 }
 
@@ -193,7 +193,7 @@ li a:hover{
     border: .2rem solid rgba(255, 255, 255, 0.86);
   }
   #Instagram:hover:after{
-   box-shadow: .55rem -.55rem 0 -.35rem  rgba(255, 255, 255, 0.86);
+   box-shadow: .5rem -.5rem 0 -.3rem  rgba(255, 255, 255, 0.86);
   }
 }
 
@@ -249,7 +249,7 @@ li a:hover{
     border: .2rem solid rgba(255, 255, 255, 0.86);
   }
   #Instagram:hover:after{
-   box-shadow: .55rem -.55rem 0 -.35rem  rgba(255, 255, 255, 0.86);
+   box-shadow: .5rem -.5rem 0 -.3rem  rgba(255, 255, 255, 0.86);
   }
   }
 
@@ -283,6 +283,9 @@ li a:hover{
     left:40%;
     width: 33px;
     height: 33px;
+  }
+  #Instagram:after{
+   box-shadow: .4rem -.4rem 0 -.3rem  rgba(35, 34, 34, 0.86);
   }
   div#Email{
     top: 90.2%;
