@@ -63,165 +63,6 @@ li a:hover{
   
 }
 
-
-                        /*               Media Queries            */
-@media screen and (min-width: 64em) {
-  body {
-    line-height:1.8;
-  }
-  body::after {
-    background-size: 45%;
-  }
-  div#Coming
-  {
-    font-size: 3rem;
-    margin: 12% 0% 10% 0%;
-
-  }
-  #About{
-    font-size: 1.2rem;
-  }
-  #Summary{
-    font-size: 1rem;
-    line-height:1.5rem;
-  }
-  li{
-    line-height:1.1rem;
-    width:17%;
-  }
-  li a{
-     font-size: .90rem;
-  }
-  li a:hover{
-    
-    padding: .7rem .5rem .5rem 0rem;  
-  }
-  #Instagram {
-    top:92%;
-    left:46%;
-
-  }
-  #Email{
-    top: 92.2%;
-    left: 51%;
-    
-  }
-  div#Email:hover{
-    transform: rotate(-10deg);
-  }
-  div#Instagram:hover{
-    transform: rotate(10deg);
-  }
-}
-
-@media screen and (min-width: 42em) and (max-width: 64em) {
-  body {
-    line-height:1.8;
-  }
-  body::after {
-    background-size: 55%;
-    }
-  div#Coming
-  {
-    font-size: 2.5rem;
-    margin: 17% 0% 10% 0%;
-
-  }
-  #About{
-    font-size: 1.2rem;
-  }
-  #Summary{
-    font-size: 1rem;
-    line-height:1.5rem;
-  }
-  li{
-    width:17%;
-    line-height:1.1rem;
-  }
-  li a{
-     font-size: .9rem;
-  }
-  li a:hover{
-    
-    padding: .7rem .5rem .5rem 0rem;  
-  }
-  #Instagram {
-    top:92%;
-    left:44%;
-
-  }
-  #Email{
-    top: 92.2%;
-    left: 51%;
-    
-  }
-  div#Email:hover{
-    transform: rotate(-10deg);
-  }
-  div#Instagram:hover{
-    transform: rotate(10deg);
-  }
-  }
-
-@media screen and (max-width: 42em) {
-  body {
-    line-height:1.8;
-  }
-  body::after {
-    background-size: 80%;
-    }
-    div#Coming
-  {
-    font-size: 1.6rem;
-    margin: 35% 0% 10% 0%;
-
-  }
-  
-  li{
-    width:24%;
-    line-height:1rem;
-  }
-  li a{
-     font-size: .7rem;
-  }
-  li a:hover{
-    padding: .7rem .5rem .5rem .45rem;  
-  }
-
-  #Instagram {
-    top:90%;
-    left:43%;
-    width: 15vmin;
-    height: 15vmin;
-
-  }
-  #Email{
-    top: 90.2%;
-    left: 52%;
-    width: 17min;
-    height: 15vmin;
-  }
-  #Email-top{
-    width: 15min;
-    height: 15vmin;
-  }
-  #Email-bottom{
-    width: 15min;
-    height: 15vmin;
-  }
-  }
-
-                                  /*    Animations   */
- @-webkit-keyframes comingAnimation {
-    from {color: rgba(16, 16, 16, 0.99);}
-    to {color: #ffffff;}
-}
-/* Standard syntax */
-@keyframes comingAnimation {
-    from {color: rgba(16, 16, 16, 0.99);}
-    to {color: #ffffff;}
-}
-
 #Instagram {
   overflow: hidden;
   translate(-50%, -50%);
@@ -292,5 +133,179 @@ li a:hover{
     top: -50%;
     left: 10%;
     box-shadow: 5px 0px 4px rgba(218, 48, 0, 0.4);
+}
+
+
+
+                        /*               Media Queries            */
+@media screen and (min-width: 64em) {
+  body {
+    line-height:1.8;
+  }
+  body::after {
+    background-size: 45%;
+  }
+  div#Coming
+  {
+    font-size: 3rem;
+    margin: 12% 0% 10% 0%;
+
+  }
+  #About{
+    font-size: 1.2rem;
+  }
+  #Summary{
+    font-size: 1rem;
+    line-height:1.5rem;
+  }
+  li{
+    line-height:1.1rem;
+    width:17%;
+  }
+  li a{
+     font-size: .90rem;
+  }
+  li a:hover{
+    
+    padding: .7rem .5rem .5rem 0rem;  
+  }
+  #Instagram {
+    top:92%;
+    left:46%;
+
+  }
+  #Email{
+    top: 92.2%;
+    left: 51%;
+    
+  }
+  #Email:hover{
+    transform: rotate(-10deg);
+  }
+  #Instagram:hover{
+    transform: rotate(10deg);
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  }
+  #Instagram:hover:before,#Instagram:hover:after{
+    border: .2rem solid rgba(255, 255, 255, 0.86);
+  }
+  #Instagram:hover:after{
+   box-shadow: .55rem -.55rem 0 -.35rem  rgba(255, 255, 255, 0.86);
+  }
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+  body {
+    line-height:1.8;
+  }
+  body::after {
+    background-size: 55%;
+    }
+  div#Coming
+  {
+    font-size: 2.5rem;
+    margin: 17% 0% 10% 0%;
+
+  }
+  #About{
+    font-size: 1.2rem;
+  }
+  #Summary{
+    font-size: 1rem;
+    line-height:1.5rem;
+  }
+  li{
+    width:17%;
+    line-height:1.1rem;
+  }
+  li a{
+     font-size: .9rem;
+  }
+  li a:hover{
+    
+    padding: .7rem .5rem .5rem 0rem;  
+  }
+  #Instagram {
+    top:92%;
+    left:44%;
+
+  }
+  #Email{
+    top: 92.2%;
+    left: 51%;
+    
+  }
+  #Email:hover{
+    transform: rotate(-10deg);
+  }
+  #Instagram:hover{
+    transform: rotate(10deg);
+    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
+  }
+  #Instagram:hover:before,#Instagram:hover:after{
+    border: .2rem solid rgba(255, 255, 255, 0.86);
+  }
+  #Instagram:hover:after{
+   box-shadow: .55rem -.55rem 0 -.35rem  rgba(255, 255, 255, 0.86);
+  }
+  }
+
+@media screen and (max-width: 42em) {
+  body {
+    line-height:1.8;
+  }
+  body::after {
+    background-size: 90%;
+    }
+    div#Coming
+  {
+    font-size: 1.6rem;
+    margin: 35% 0% 10% 0%;
+
+  }
+  
+  li{
+    width:24%;
+    line-height:1rem;
+  }
+  li a{
+     font-size: .7rem;
+  }
+  li a:hover{
+    padding: .7rem .5rem .5rem .45rem;  
+  }
+
+  div#Instagram {
+    top:90%;
+    left:40%;
+    width: 9vmin;
+    height: 9vmin;
+
+  }
+  div#Email{
+    top: 90.2%;
+    left: 52%;
+    width: 11vmin;
+    height: 9vmin;
+  }
+  div.Email-top{
+    width: 9vmin;
+    height: 9vmin;
+  }
+  div.Email-bottom{
+    width: 9vmin;
+    height: 9vmin;
+  }
+  }
+
+                                  /*    Animations   */
+ @-webkit-keyframes comingAnimation {
+    from {color: rgba(16, 16, 16, 0.99);}
+    to {color: #ffffff;}
+}
+/* Standard syntax */
+@keyframes comingAnimation {
+    from {color: rgba(16, 16, 16, 0.99);}
+    to {color: #ffffff;}
 }
 
