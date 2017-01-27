@@ -68,6 +68,8 @@ li a:hover{
 
 #Instagram {
   overflow: hidden;
+  border-color:black;
+  border
   translate(-50%, -50%);
   position: absolute;
   width: 39px;
@@ -86,7 +88,7 @@ li a:hover{
   left: 50%;
   width: 60%;
   height: 60%;
-  border: .2rem solid #201e1e;
+  border: .1995rem solid rgb(11, 11, 11);
   transform: translate(-50%, -50%);
   content: '';
 }
