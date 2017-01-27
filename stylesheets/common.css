@@ -38,6 +38,7 @@ a {
     text-decoration: underline; }
 li a{
     text-align:center;
+    text-transform: uppercase;
     display: block;
     color: white;
     padding: .7rem .5rem .5rem .5rem; 
@@ -57,9 +58,11 @@ li a:hover{
 }
 #About{
   text-align:center;
+  text-transform: uppercase;
 }
 #Summary{
   text-align:center;
+  text-transform: uppercase;
   
 }
 
