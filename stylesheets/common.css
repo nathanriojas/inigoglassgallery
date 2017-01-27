@@ -67,8 +67,8 @@ li a:hover{
   overflow: hidden;
   translate(-50%, -50%);
   position: absolute;
-  width: 5vmin;
-  height: 5vmin;
+  width: 39px;
+  height: 39px;
   border-radius: 20%;
   padding: 0;
   background: #000000;
@@ -103,8 +103,8 @@ li a:hover{
 
 #Email{
     position:absolute;
-    width: 6vmin;
-    height: 5vmin;
+    width: 44px;
+    height: 38px;
     border-radius: 9%;
     background-color: rgb(194, 158, 86);
     overflow: hidden;
@@ -114,8 +114,8 @@ li a:hover{
 .Email-top {
     z-index: 50;
     position: relative;
-    width: 5vmin;
-    height: 5vmin;
+    width: 36px;
+    height: 38px;
     background: rgb(123, 88, 16);
     transform: rotate(45deg);
     top: -50%;
@@ -126,8 +126,8 @@ li a:hover{
 .Email-bottom {
     z-index: 20;
     position: relative;
-    width: 5vmin;
-    height: 5vmin;
+    width: 28px;
+    height: 38px;
     background: rgba(127, 59, 15, 0.43);
     transform: rotate(45deg);
     top: -50%;
@@ -278,24 +278,13 @@ li a:hover{
   div#Instagram {
     top:90%;
     left:40%;
-    width: 9vmin;
-    height: 9vmin;
+    
 
   }
   div#Email{
     top: 90.2%;
     left: 52%;
-    width: 11vmin;
-    height: 9vmin;
-  }
-  div.Email-top{
-    width: 9vmin;
-    height: 9vmin;
-  }
-  div.Email-bottom{
-    width: 9vmin;
-    height: 9vmin;
-  }
+
   }
 
                                   /*    Animations   */
