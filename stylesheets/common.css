@@ -86,11 +86,11 @@ li a:hover{
     line-height:1.5rem;
   }
   li{
-    line-height:1rem;
+    line-height:1.1rem;
     width:17%;
   }
   li a{
-     font-size: .85rem;
+     font-size: .90rem;
   }
   li a:hover{
     
@@ -98,12 +98,12 @@ li a:hover{
   }
   #Instagram {
     top:92%;
-    left:47%;
+    left:46%;
 
   }
   #Email{
     top: 92.2%;
-    left: 52%;
+    left: 51%;
     
   }
 }
@@ -122,18 +122,18 @@ li a:hover{
 
   }
   #About{
-    font-size: 1.1rem;
+    font-size: 1.2rem;
   }
   #Summary{
-    font-size: .9rem;
+    font-size: 1rem;
     line-height:1.5rem;
   }
   li{
     width:17%;
-    line-height:1rem;
+    line-height:1.1rem;
   }
   li a{
-     font-size: .7rem;
+     font-size: .9rem;
   }
   li a:hover{
     
@@ -141,13 +141,19 @@ li a:hover{
   }
   #Instagram {
     top:92%;
-    left:45%;
+    left:44%;
 
   }
   #Email{
     top: 92.2%;
-    left: 52%;
+    left: 51%;
     
+  }
+  div#Email:hover{
+    transform: rotate(-10deg);
+  }
+  div#Instagram:hover{
+    transform: rotate(10deg);
   }
   }
 
@@ -167,10 +173,10 @@ li a:hover{
   
   li{
     width:24%;
-    line-height:.9rem;
+    line-height:1rem;
   }
   li a{
-     font-size: .65rem;
+     font-size: .7rem;
   }
   li a:hover{
     padding: .7rem .5rem .5rem .45rem;  
@@ -178,13 +184,24 @@ li a:hover{
 
   #Instagram {
     top:90%;
-    left:45%;
+    left:43%;
+    width: 15vmin;
+    height: 15vmin;
 
   }
   #Email{
     top: 90.2%;
     left: 52%;
-
+    width: 17min;
+    height: 15vmin;
+  }
+  #Email-top{
+    width: 15min;
+    height: 15vmin;
+  }
+  #Email-bottom{
+    width: 15min;
+    height: 15vmin;
   }
   }
 
@@ -270,3 +287,4 @@ li a:hover{
     left: 10%;
     box-shadow: 5px 0px 4px rgba(218, 48, 0, 0.4);
 }
+
