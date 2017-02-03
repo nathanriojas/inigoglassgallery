@@ -225,11 +225,12 @@ li a:hover{
     color: #fff;
     background: #4060A5;
 }
+  /*
   #Email:hover{
     transform: rotate(-10deg);
-  }
+  }*/
   #Instagram:hover{
-    transform: rotate(10deg);
+    /*transform: rotate(10deg);*/
     background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   }
   #Instagram:hover:before,#Instagram:hover:after{
@@ -289,11 +290,12 @@ li a:hover{
     color: #fff;
     background: #4060A5;
   }
+  /*
   #Email:hover{
     transform: rotate(-10deg);
-  }
+  }*/
   #Instagram:hover{
-    transform: rotate(10deg);
+    /*transform: rotate(10deg);*/
     background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
   }
   #Instagram:hover:before,#Instagram:hover:after{
