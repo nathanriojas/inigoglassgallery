@@ -1,8 +1,10 @@
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
+/**/
 * {
   box-sizing: border-box; }
 ul {
     top:0;
-    left:0;
+    left:0;  
     position:absolute;
     list-style: none;
     width: 100%;
@@ -17,7 +19,7 @@ ul {
     background-image: -o-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
     background-image:  linear-gradient(to bottom, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
   }
-li {
+li { 
     display: inline-block;
     margin: 0% 0% 0% 0%;
     padding:0;
@@ -106,6 +108,37 @@ li a:hover{
 }
 
 
+#facebookBtn {
+    display: inline-block;
+    position: absolute;
+    overflow:hidden;
+    width: 39px;
+    height: 39px;
+    padding: 0px;
+    translate(-50%, -50%);
+    text-decoration: none;
+    text-align: center;
+    color: #151414;
+    font-size: 37px;
+    font-weight: normal; 
+    line-height: 1.4em;
+    border-radius: 20%;
+    -moz-border-radius:20%;
+    -webkit-border-radius:20%;
+    background: #4060A5;
+    background-image:  linear-gradient(to bottom, rgba(229, 142, 25, 0.97), rgb(155, 155, 151));
+
+  
+}
+
+#facebookBtn:before {
+    font-family: "FontAwesome";
+    content: "\f09a";
+    left:10%;
+    top:80%;
+}
+
+
 #Email{
     position:absolute;
     width: 44px;
@@ -177,13 +210,21 @@ li a:hover{
   #Instagram {
     top:92%;
     left:46%;
-
+  }
+  #facebookBtn{
+    top: 92%;
+    left:41%
   }
   #Email{
     top: 92.2%;
     left: 51%;
     
   }
+  
+  #facebookBtn:hover{
+    color: #fff;
+    background: #4060A5;
+}
   #Email:hover{
     transform: rotate(-10deg);
   }
@@ -230,15 +271,23 @@ li a:hover{
     
     padding: .7rem .5rem .5rem 0rem;  
   }
+  #facebookBtn{
+    top: 92%;
+    left:40%
+  }
   #Instagram {
     top:92%;
-    left:44%;
+    left:47%;
 
   }
   #Email{
     top: 92.2%;
-    left: 51%;
+    left: 54%;
     
+  }
+  #facebookBtn:hover{
+    color: #fff;
+    background: #4060A5;
   }
   #Email:hover{
     transform: rotate(-10deg);
@@ -270,19 +319,26 @@ li a:hover{
   }
   
   li{
-    width:24%;
-    line-height:1rem;
+    width:20%;
+    line-height:1.2rem;
   }
   li a{
-     font-size: .7rem;
-  }
-  li a:hover{
-    padding: .7rem .5rem .5rem .45rem;  
+     font-size: .6rem;
+     padding: .8rem .2rem .4rem .2rem; 
   }
 
+
+  #facebookBtn{
+    top: 90%;
+    left:36%;
+    width: 33px;
+    height: 33px;
+    font-size: 34px;
+    line-height: 1.4em;
+  }
   div#Instagram {
     top:90%;
-    left:40%;
+    left:48%;
     width: 33px;
     height: 33px;
   }
@@ -291,7 +347,7 @@ li a:hover{
   }
   div#Email{
     top: 90.2%;
-    left: 52%;
+    left: 60%;
     width: 35px;
     height: 32px;
   }
