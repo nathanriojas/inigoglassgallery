@@ -272,7 +272,8 @@ li a:hover{
   }
   #facebookBtn{
     top: 92%;
-    left:41%
+    left:41%;
+    line-height: 1.3em;
   }
   #Instagram {
     top:92%;
@@ -334,7 +335,7 @@ li a:hover{
     width: 33px;
     height: 33px;
     font-size: 34px;
-    line-height: 1.4em;
+    line-height: 1.3em;
   }
   div#Instagram {
     top:90%;
