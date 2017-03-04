@@ -34,8 +34,7 @@ a {
   color: rgb(16, 16, 16);
   text-align: right;
   text-decoration: none; }
-  a:hover {
-    text-decoration: underline; }
+
 li a{
     text-align:center;
     text-transform: uppercase;
