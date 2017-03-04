@@ -1,14 +1,20 @@
 body {
   position: static;
   background-color:black;
+  text-decoration:none;
   left:0;
   right: 0;
   font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
   color: rgb(224, 234, 236);  }
 
+body>p>a{
 
-body::after{
+  color: goldenrod;
+  text-decoration:none;
+
+}
+body:after{
   content: "";
   display: inline-block;
   background: url("/IMG_1647.png") no-repeat center center fixed;
@@ -29,8 +35,9 @@ body::after{
     margin-right:28%;
     margin-left:28%;
     font-size: 16px;
-
-  }}
+  }
+    a:hover {
+    text-decoration: underline; }}
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   body{
@@ -38,7 +45,10 @@ body::after{
     margin-right:23%;
     margin-left:23%;
     font-size: 16px;
-  }}
+  
+  }
+    a:hover {
+    text-decoration: underline; }}
 
 @media screen and (max-width: 42em) {
   body{
@@ -53,6 +63,7 @@ body::after{
 }
 #Summary{
   text-align:center;
-  
+ 
 }
+
 
