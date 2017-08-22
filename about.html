@@ -5,23 +5,107 @@
     
     <meta charset="UTF-8">
     <title>About Us</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
     <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/font-awesome' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet2.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-   <ul>
+    <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
+ <!--
+    <ul>
     <li class="icons"><a href="mailto:info@inigoglassgallery.com">Email</a></li>
     <li class="icons" id="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" >Instagram</a></li>
     <li class="icons" id="facebook"><a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" >Facebook</a></li>
     <li class="icons" id="gallery"><a href="gallery.html" >Gallery</a></li>
     <li class="noIcon"><a href="about.html" >About</a></li>
     <li class="noIcon"><a href="index.html" >Home</a></li>
-    </ul>
+</ul> -->
   </head>
+
+
+
+<style>
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
+.w3-quarter img:hover{opacity: 0.5; transition: 0.3s}
+
+
+</style>  
+<style>
+.w3-theme-gradient {
+  color: white;
+  background:-webkit-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
+}
+.w3-theme-gradient:hover {
+  color: white;
+  background:-webkit-linear-gradient(top,rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85)));
+}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-moz-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(255, 255, 255, .3))}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-o-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-ms-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background: linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
+</style>
+
+<body class="w3-black">
+
+<!-- Top menu on small screens -->
+
+ <!--
+    <ul>
+    <li class="icons"><a href="mailto:info@inigoglassgallery.com">Email</a></li>
+    <li class="icons" id="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" >Instagram</a></li>
+    <li class="icons" id="facebook"><a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" >Facebook</a></li>
+    <li class="icons" id="gallery"><a href="gallery.html" >Gallery</a></li>
+    <li class="noIcon"><a href="about.html" >About</a></li>
+    <li class="noIcon"><a href="index.html" >Home</a></li>
+</ul> -->
+
+<!-- Navbar -->
+
+<div class="w3-top w3-text-white">
+ <div class="w3-bar w3-theme-gradient w3-left-align w3-text-white">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right  w3-theme-gradient w3-hover-black w3-text-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">About</a>
+  <a href="mailto:info@inigoglassgallery.com" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Email</a>
+  <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
+  <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a>
+    <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
+    <button class="w3-button w3-text-white w3-hover-black" title="Gallery">Gallery <i class="fa fa-caret-down "></i></button>     
+    <div class="w3-dropdown-content w3-theme-gradient w3-bar-block w3-text-white">
+      <a href="gallery.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Functional</a>
+      <a href="nonfunctional.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Non-Functional</a>
+      <a href="pendants.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Pendants</a>
+    </div>
+  </div>
+ </div>
+ 
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
+    <a href="#team" class="w3-bar-item w3-button">Team</a>
+    <a href="#work" class="w3-bar-item w3-button">Work</a>
+    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
+    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    <a href="#" class="w3-bar-item w3-button">Search</a>
+  </div>
+</div>
+
+
+
 <body>
   <h3 class = "description" id="About">
 <a id="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a> Welcome to Inigo</h3>
@@ -30,13 +114,14 @@
 <p class = "description" id="Summary">Friday-Saturday: 2pm - 7pm</p>
 <!-- <p class = "description" id="Summary">Sunday: 3pm-6pm</p> -->
 <p class = "description" id="Summary">For appointments please <a href="mailto:info@inigoglassgallery.com"> email us.</a> </p>
-   
+   <!--
   <a href="https://www.instagram.com/inigo_glassgallery/" > <div id = "Instagram"></div></a>
   <a href="mailto:info@inigoglassgallery.com" ><div id = "Email">
     <div class="Email-top"></div>        
     <div class="Email-bottom"></div> 
     </div></a>
   <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/"> <div id = "facebookBtn"></div></a>
+-->
  </body>
  
 </html>

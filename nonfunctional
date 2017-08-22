@@ -1,54 +1,33 @@
 <!DOCTYPE html>
 <html>
-<title>Functional</title>
+<title>Gallery</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
-<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-<link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
-<link href='fonts/font-awesome' rel='stylesheet' type='text/css'>
-<link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
-<link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-<link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-<link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
-
-
 <style>
-body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
-.w3-quarter img:hover{opacity: 0.5; transition: 0.3s}
+.w3-quarter img:hover{opacity: 0.6; transition: 0.3s}
 
 
-</style>  
-<style>
-.w3-theme-gradient {
-  color: white;
-  background:-webkit-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-}
-.w3-theme-gradient:hover {
-  color: white;
-  background:-webkit-linear-gradient(top,rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85)));
-}
-.w3-theme-gradient {
-  color: #000 !important;
-  background:-moz-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(255, 255, 255, .3))}
-.w3-theme-gradient {
-  color: #000 !important;
-  background:-o-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
-.w3-theme-gradient {
-  color: #000 !important;
-  background:-ms-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
-.w3-theme-gradient {
-  color: #000 !important;
-  background: linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
 </style>
+
 
 <body class="w3-black">
 
 <!-- Top menu on small screens -->
 
+    <title>Welcome to Inigo Glass Gallery</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href='//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css' rel='stylesheet' type='text/css'>
+    <link href='fonts/font-awesome' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Aldrich" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
+    <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
  <!--
     <ul>
     <li class="icons"><a href="mailto:info@inigoglassgallery.com">Email</a></li>
@@ -61,20 +40,20 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
 
 <!-- Navbar -->
 
-<div class="w3-top w3-text-white">
- <div class="w3-bar w3-theme-gradient w3-left-align w3-text-white">
-  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right  w3-theme-gradient w3-hover-black w3-text-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-  <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
-  <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">About</a>
-  <a href="mailto:info@inigoglassgallery.com" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Email</a>
-  <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
-  <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a>
-    <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
-    <button class="w3-button w3-text-white w3-hover-black" title="Gallery">Gallery <i class="fa fa-caret-down "></i></button>     
-    <div class="w3-dropdown-content w3-theme-gradient w3-bar-block w3-text-white">
-      <a href="gallery.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Functional</a>
-      <a href="nonfunctional.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Non-Functional</a>
-      <a href="pendants.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Pendants</a>
+<div class="w3-top">
+ <div class="w3-bar w3-theme-d2 w3-left-align">
+  <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-hover-white w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+  <a href="index.html" class="w3-bar-item w3-button w3-teal"><i class="fa fa-home w3-margin-right"></i>Home</a>
+  <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-white">About</a>
+  <a href="#work" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Email</a>
+  <a href="#pricing" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Facebook</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-hide-small w3-hover-white">Instagram</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+    <button class="w3-button" title="Notifications">Gallery <i class="fa fa-caret-down"></i></button>     
+    <div class="w3-dropdown-content w3-card-4 w3-bar-block">
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
+      <a href="#" class="w3-bar-item w3-button">Link</a>
     </div>
   </div>
  </div>
