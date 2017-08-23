@@ -8,9 +8,9 @@ body {
   line-height: 1.5;
   color: rgb(224, 234, 236);  }
 
-body>p>a{
+div>p>a{
 
-  color: goldenrod;
+  color: yellow;
   text-decoration:none;
 
 }
