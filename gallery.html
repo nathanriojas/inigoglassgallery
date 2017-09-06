@@ -19,8 +19,6 @@
 body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
 .w3-quarter img{margin-bottom: -6px; cursor: pointer}
 .w3-quarter img:hover{opacity: 0.5; transition: 0.3s}
-
-
 </style>  
 <style>
 .w3-theme-gradient {
@@ -71,7 +69,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right  w3-theme-gradient w3-hover-black w3-text-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
   <a href="index.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
   <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">About</a>
-  <a href="@mailto:infoinigoglassgallery.com" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Email</a>
+  <a href="mailto:info@inigoglassgallery.com" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Email</a>
   <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
   <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a>
     <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
@@ -81,11 +79,8 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
       <a href="nonfunctional.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Non-Functional</a>
       <a href="pendants.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Pendants</a>
     </div>
-    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
-
-   
   </div>
-  <!-- Navbar on small screens -->
+   <!-- Navbar on small screens -->
   <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-text-white">
     <a href="index.html" class="w3-bar-item w3-button">Home</a>
     <a href="about.html" class="w3-bar-item w3-button">About</a>
@@ -96,10 +91,11 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     <a href="nonfunctional.html" class="w3-bar-item w3-button">Non-Functional</a>
     <a href="pendants.html" class="w3-bar-item w3-button">Pendants</a>
   </div>
-
  </div>
  
 
+  
+</div>
 
 <style> body::after{
   content: "";
@@ -114,7 +110,6 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   position: absolute;
   z-index:-1;
 }
-
 </style>
   
 
@@ -142,6 +137,7 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     
     <div class="w3-quarter">
       <img src="/gallerypics/bell7.jpg" style="width:100%" onclick="onClick(this)" alt="More information coming soon">
+      
       <img src="/gallerypics/wrapthrough9.jpg" style="width:100%" onclick="onClick(this)" alt="More information coming soon">
     </div>
 
@@ -172,17 +168,14 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
 </div>
 
 <script>
-// Script for side navigation
+// Script to open and close sidebar
 function w3_open() {
-    var x = document.getElementById("mySidebar");
-    x.style.width = "300px";
-    x.style.paddingTop = "10%";
-    x.style.display = "block";
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
 }
-
-// Close side navigation
 function w3_close() {
     document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
 }
 
 // Used to toggle the menu on smaller screens when clicking on the menu button
@@ -203,7 +196,6 @@ function onClick(element) {
   var captionText = document.getElementById("caption");
   captionText.innerHTML = element.alt;
 }
-
 </script>
 
 
@@ -240,7 +232,6 @@ function onClick(element) {
 <!--
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
     
     <meta charset="UTF-8">
@@ -271,11 +262,6 @@ function onClick(element) {
     <div class="Email-bottom"></div> 
     </div></a>
   <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/"><div id = "facebookBtn"></div></a>
-
-
  </body>
-
 </html>
-
-
 -->
