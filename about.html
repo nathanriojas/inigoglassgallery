@@ -90,17 +90,21 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
       <a href="pendants.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Pendants</a>
     </div>
   </div>
+   <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-text-white">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="@mailto:infoinigoglassgallery.com" class="w3-bar-item w3-button">Email</a>
+    <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button">Facebook</a>
+    <a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button">Instagram</a>
+    <a href="gallery.html" class="w3-bar-item w3-button">Functional</a>
+    <a href="nonfunctional.html" class="w3-bar-item w3-button">Non-Functional</a>
+    <a href="pendants.html" class="w3-bar-item w3-button">Pendants</a>
+  </div>
+
  </div>
  
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
-  </div>
 </div>
 
 
@@ -114,13 +118,39 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   <p class = "description" id="Summary">Friday-Saturday: 2pm - 7pm</p>
   <p class = "description" id="Summary">For appointments please <a href="mailto:info@inigoglassgallery.com" class="w3-text-orange w3-opacity"> email us.</a> </p>
   <p class = "description" id="Summary">We are located at <a href="https://www.google.com/maps/place/1700+Montopolis+Dr,+Austin,+TX+78741/@30.2272381,-97.7046092,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41ea28aa3a9:0x3645e7f78cbce27b!8m2!3d30.2272381!4d-97.7024205" class="w3-text-orange w3-opacity" >1700 Montopolis Dr, Unit C, Austin Texas, 78741</a> </p>
+
+  <!-- Google Maps -->
+<div id="googleMap" style="margin: 0% 20%; width:60%;height:420px;"></div>
 </div> 
 
-<!-- Google Maps -->
-<div id="googleMap" style="margin: 0% 20%; width:60%;height:420px;"></div>
+
 
 
 <script>
+
+// Script for side navigation
+function w3_open() {
+    var x = document.getElementById("mySidebar");
+    x.style.width = "300px";
+    x.style.paddingTop = "10%";
+    x.style.display = "block";
+}
+
+// Close side navigation
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
 function myMap()
 {
   myCenter=new google.maps.LatLng(30.227238, -97.702420);

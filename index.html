@@ -92,27 +92,36 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
       <a href="pendants.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Pendants</a>
     </div>
   </div>
+    </div>
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-text-white">
+    <a href="index.html" class="w3-bar-item w3-button">Home</a>
+    <a href="about.html" class="w3-bar-item w3-button">About</a>
+    <a href="@mailto:infoinigoglassgallery.com" class="w3-bar-item w3-button">Email</a>
+    <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button">Facebook</a>
+    <a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button">Instagram</a>
+    <a href="gallery.html" class="w3-bar-item w3-button">Functional</a>
+    <a href="nonfunctional.html" class="w3-bar-item w3-button">Non-Functional</a>
+    <a href="pendants.html" class="w3-bar-item w3-button">Pendants</a>
+  </div>
  </div>
  
 
-  <!-- Navbar on small screens -->
-  <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium">
-    <a href="#team" class="w3-bar-item w3-button">Team</a>
-    <a href="#work" class="w3-bar-item w3-button">Work</a>
-    <a href="#pricing" class="w3-bar-item w3-button">Price</a>
-    <a href="#contact" class="w3-bar-item w3-button">Contact</a>
-    <a href="#" class="w3-bar-item w3-button">Search</a>
-  </div>
 </div>
 
 
 
 
 <body>
-  <div id ="Coming">Now Open!</div>
+
+  <div class ="w3-display-middle" style ="margin-top:2.5%; margin-left:4.8%">
+  <img src="/gallerypics/flyer.jpg" alt="Forest" class="w3-opacity-min" style="width:80%; height: auto"> 
+</div>
+<!--
+  <div id ="Coming">Website Under Construction</div>
 
 
-  <!--
+  
   <a href="https://www.instagram.com/inigo_glassgallery/" > <div id = "Instagram"></div></a>
   <a href="mailto:info@inigoglassgallery.com" ><div id = "Email">
     <div class="Email-top"></div>        
@@ -122,5 +131,39 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   -->
 
  </body>
+
+
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Used to toggle the menu on smaller screens when clicking on the menu button
+function openNav() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
 
 </html>
