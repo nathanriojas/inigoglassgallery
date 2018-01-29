@@ -1,0 +1,49 @@
+header{
+
+  content: "";
+  margin-top: -2%;
+  background: url("/IMG_1647.png");
+  background-repeat:no-repeat;
+  background-position:95% 95%;
+  background-size: contain;
+  opacity: .7;
+
+  top: 0%;
+  left: 0%;
+  bottom: 60%;
+  right: 0;
+  position: absolute;
+  z-index:-1;
+
+}
+
+
+body {
+  background-color:black;
+  padding: 0;
+  margin: 0;
+  width:100%;
+  height: 0%;
+  font-family: 'Aldrich', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 2.5;
+  color: rgb(39, 43, 44); }
+
+
+
+
+div#Coming{
+  color:white;
+  width: 100%;
+  text-align:center;
+  text-transform: uppercase;
+  line-height:1.25;
+  font-family:  'Aldrich', sans-serif;
+  border-width: thick;
+  border-color:black;
+  border-style:none;
+  -webkit-animation-name: comingAnimation; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 6s; /* Safari 4.0 - 8.0 */
+  animation-name: comingAnimation;
+  animation-duration: 6s;
+}

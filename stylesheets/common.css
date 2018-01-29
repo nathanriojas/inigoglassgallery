@@ -1,174 +1,33 @@
-* {
-  box-sizing: border-box; }
-ul {
-    top:0;
-    left:0;  
-    position:absolute;
-    list-style: none;
-    width: 100%;
-    margin: 0% 0% 0% 0%;
-    padding: 0;
-    overflow: hidden;
-    text-align: center;
-    background-color:rgba(68, 63, 29, 0.82);
-    background-image: -webkit-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-    background-image: -moz-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-    background-image: -ms-linear-gradient(top, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-    background-image: -o-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-    background-image:  linear-gradient(to bottom, rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
-  }
-li { 
-    display: inline-block;
-    margin: 0% 0% 0% 0%;
-    padding:0;
-    border-radius: 1em;
-}
-li.icons{
-  float:left
-}
-li.noIcon{
-  float:right
-}
+body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
 
-a {
-  color: rgb(16, 16, 16);
-  text-align: right;
-  text-decoration: none; }
+.w3-quarter img{margin-bottom: -6px; cursor: pointer}
 
-li a{
-    text-align:center;
-    text-transform: uppercase;
-    display: block;
-    color: white;
-    padding: .7rem .5rem .5rem .5rem; 
-    text-decoration:none;
-    margin:0;
-    border-radius: 1rem;
-}
-li a:hover{
-    background-color:rgba(68, 63, 29, 0.82);
-    background-image: -webkit-linear-gradient(to bottom, rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85));
-    background-image: -moz-linear-gradient(to bottom, rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85));
-    background-image: -ms-linear-gradient(to bottom, rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85));
-    background-image: -o-linear-gradient(to bottom, rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85));
-    background-image:  linear-gradient(to bottom, rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85));
-    text-decoration: none;
-    border-radius: 0.22em;
-}
-#About{
-  position: relative;
-  text-align:center;
-  text-transform: uppercase;
-}
-#Summary{
-  text-align:center;
-  text-transform: uppercase;
-  
-}
+.w3-quarter img:hover{opacity: 0.5; transition: 0.3s}
 
-#Instagram {
-  overflow: hidden;
-  border-color:black;
-  border
-  translate(-50%, -50%);
-  position: absolute;
-  width: 39px;
-  height: 39px;
-  border-radius: 20%;
-  padding: 0;
-  background: #000000;
-  background-image:  linear-gradient(to bottom, rgba(229, 142, 25, 0.97), rgb(155, 155, 151));
-}
-#Instagram:after,
-#Instagram:before {
-  padding:0;
-  margin:0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 60%;
-  height: 60%;
-  border: .1995rem solid rgb(11, 11, 11);
-  transform: translate(-50%, -50%);
-  content: '';
-}
-#Instagram:before {
-  border-radius: 20%;
- 
-}
-#Instagram:after {
-  width: 20%;
-  height: 20%;
-  border-radius: 50%;
-  transform: translate(-50%, -50%);
-  box-shadow: .5rem -.5rem 0 -.3rem #151515;
+#googleMap {opacity: 0.89}
 
+.w3-theme-gradient {
+  color: white;
+  background:-webkit-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(202, 135, 6, 0.87));
 }
+.w3-theme-gradient:hover {
+  color: white;
+  background:-webkit-linear-gradient(top,rgba(54, 67, 70, 0.9), rgba(209, 212, 212, 0.85)));
+}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-moz-linear-gradient(top,rgba(23, 19, 14, 0.97), rgba(255, 255, 255, .3))}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-o-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background:-ms-linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
+.w3-theme-gradient {
+  color: #000 !important;
+  background: linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
 
 
-#facebookBtn {
-    display: inline-block;
-    position: absolute;
-    overflow:hidden;
-    width: 39px;
-    height: 39px;
-    padding: 0px;
-    text-decoration: none;
-    text-align: center;
-    color: #151414;
-    font-size: 37px;
-    font-weight: normal; 
-    line-height: 1.4em;
-    border-radius: 20%;
-    -moz-border-radius:20%;
-    -webkit-border-radius:20%;
-    background: #4060A5;
-    background-image:  linear-gradient(to bottom, rgba(229, 142, 25, 0.97), rgb(155, 155, 151));
-
-  
-}
-
-#facebookBtn:before {
-    font-family: "FontAwesome";
-    content: "\f09a";
-    left:10%;
-    top:80%;
-}
-
-
-#Email{
-    position:absolute;
-    width: 44px;
-    height: 38px;
-    border-radius: 9%;
-    background-color: rgb(194, 158, 86);
-    overflow: hidden;
-    
-}
-
-.Email-top {
-    z-index: 50;
-    position: relative;
-    width: 36px;
-    height: 38px;
-    background: rgb(123, 88, 16);
-    transform: rotate(45deg);
-    top: -50%;
-    left: 9%;
-    box-shadow: 5px 0px 4px rgba(113, 84, 17, 0.4);
-}
-
-.Email-bottom {
-    z-index: 20;
-    position: relative;
-    width: 28px;
-    height: 38px;
-    background: rgba(127, 59, 15, 0.43);
-    transform: rotate(45deg);
-    top: -50%;
-    left: 10%;
-    box-shadow: 5px 0px 4px rgba(218, 48, 0, 0.4);
-}
 
 
 
@@ -193,50 +52,11 @@ li a:hover{
     font-size: 1rem;
     line-height:1.5rem;
   }
-  li{
-    line-height:1.1rem;
-    width:15%;
-  }
-  li a{
-     font-size: .90rem;
-  }
-  li a:hover{
-    
-    padding: .7rem .5rem .5rem 0rem;  
-  }
-  #Instagram {
-    top:92%;
-    left:48%;
-  }
-  #facebookBtn{
-    top: 92%;
-    left:43%;
-  }
-  #Email{
-    top: 92.2%;
-    left: 53%;
-    
-  }
-  
-  #facebookBtn:hover{
-    color: #fff;
-    background: #4060A5;
+
 }
-  /*
-  #Email:hover{
-    transform: rotate(-10deg);
-  }*/
-  #Instagram:hover{
-    /*transform: rotate(10deg);*/
-    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-  }
-  #Instagram:hover:before,#Instagram:hover:after{
-    border: .2rem solid rgba(255, 255, 255, 0.86);
-  }
-  #Instagram:hover:after{
-   box-shadow: .5rem -.5rem 0 -.3rem  rgba(255, 255, 255, 0.86);
-  }
-}
+
+
+
 
 @media screen and (min-width: 42em) and (max-width: 64em) {
   body {
@@ -249,7 +69,6 @@ li a:hover{
   {
     font-size: 2.5rem;
     margin: 17% 0% 10% 0%;
-
   }
   #About{
     font-size: 1.2rem;
@@ -257,50 +76,6 @@ li a:hover{
   #Summary{
     font-size: 1rem;
     line-height:1.5rem;
-  }
-  li{
-    width:15%;
-    line-height:1.1rem;
-  }
-  li a{
-     font-size: .8rem;
-  }
-  li a:hover{
-    
-    padding: .7rem .5rem .5rem 0rem;  
-  }
-  #facebookBtn{
-    top: 92%;
-    left:41%;
-    line-height: 1.3em;
-  }
-  #Instagram {
-    top:92%;
-    left:48%;
-
-  }
-  #Email{
-    top: 92.2%;
-    left: 55%;
-    
-  }
-  #facebookBtn:hover{
-    color: #fff;
-    background: #4060A5;
-  }
-  /*
-  #Email:hover{
-    transform: rotate(-10deg);
-  }*/
-  #Instagram:hover{
-    /*transform: rotate(10deg);*/
-    background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 85%, #515ecf);
-  }
-  #Instagram:hover:before,#Instagram:hover:after{
-    border: .2rem solid rgba(255, 255, 255, 0.86);
-  }
-  #Instagram:hover:after{
-   box-shadow: .5rem -.5rem 0 -.3rem  rgba(255, 255, 255, 0.86);
   }
   }
 
@@ -317,50 +92,12 @@ li a:hover{
     margin: 35% 0% 10% 0%;
 
   }
-  
-  li{
-    width:15%;
-    line-height:1.2rem;
-  }
-  li a{
-     font-size: .6rem;
-     padding: .8rem .2rem .4rem .2rem; 
-  }
-
-
-  #facebookBtn{
-    top: 90%;
-    left:36%;
-    width: 33px;
-    height: 33px;
-    font-size: 34px;
-    line-height: 1.3em;
-  }
-  div#Instagram {
-    top:90%;
-    left:49%;
-    width: 33px;
-    height: 33px;
-  }
-  #Instagram:after{
-   box-shadow: .4rem -.4rem 0 -.3rem  rgba(35, 34, 34, 0.86);
-  }
-  div#Email{
-    top: 90.2%;
-    left: 60%;
-    width: 35px;
-    height: 32px;
-  }
- 
-  .Email-top{
-    width:31px;
-    height: 33px;
-  }
-  .Email-bottom{
-    width: 18px;
-    height: 33px;
-  }
 }
+
+
+
+
+
                                   /*    Animations   */
  @-webkit-keyframes comingAnimation {
     from {color: rgba(16, 16, 16, 0.99);}
@@ -371,4 +108,3 @@ li a:hover{
     from {color: rgba(16, 16, 16, 0.99);}
     to {color: #ffffff;}
 }
- 

@@ -1,0 +1,749 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '-g',
+1 verbose cli   'browser-sync' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'browser-sync', null ]
+5 verbose cache add name=undefined spec="browser-sync" args=["browser-sync",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'browser-sync',
+6 verbose parsed url   path: 'browser-sync',
+6 verbose parsed url   href: 'browser-sync' }
+7 silly lockFile 6d7be3df-browser-sync browser-sync
+8 verbose lock browser-sync /home/nathan/.npm/6d7be3df-browser-sync.lock
+9 silly lockFile 6d7be3df-browser-sync browser-sync
+10 silly lockFile 6d7be3df-browser-sync browser-sync
+11 verbose addNamed [ 'browser-sync', '' ]
+12 verbose addNamed [ null, '*' ]
+13 silly lockFile 6373e9ab-browser-sync browser-sync@
+14 verbose lock browser-sync@ /home/nathan/.npm/6373e9ab-browser-sync.lock
+15 silly addNameRange { name: 'browser-sync', range: '*', hasData: false }
+16 verbose url raw browser-sync
+17 verbose url resolving [ 'https://registry.npmjs.org/', './browser-sync' ]
+18 verbose url resolved https://registry.npmjs.org/browser-sync
+19 info trying registry request attempt 1 at 20:18:44
+20 http GET https://registry.npmjs.org/browser-sync
+21 http 200 https://registry.npmjs.org/browser-sync
+22 silly registry.get cb [ 200,
+22 silly registry.get   { 'content-type': 'application/json; charset=UTF-8',
+22 silly registry.get     server: 'UploadServer',
+22 silly registry.get     'cache-control': 'max-age=300',
+22 silly registry.get     'last-modified': 'Fri, 5 Jan 2018 16:30:02 GMT',
+22 silly registry.get     etag: '"5a4fa80a-8d177"',
+22 silly registry.get     'content-length': '577911',
+22 silly registry.get     'accept-ranges': 'bytes',
+22 silly registry.get     date: 'Sat, 06 Jan 2018 02:18:45 GMT',
+22 silly registry.get     via: '1.1 varnish',
+22 silly registry.get     age: '0',
+22 silly registry.get     connection: 'keep-alive',
+22 silly registry.get     'x-served-by': 'cache-dfw18621-DFW',
+22 silly registry.get     'x-cache': 'MISS',
+22 silly registry.get     'x-cache-hits': '0',
+22 silly registry.get     'x-timer': 'S1515205125.274790,VS0,VE66',
+22 silly registry.get     vary: 'Accept-Encoding, Accept' } ]
+23 silly addNameRange number 2 { name: 'browser-sync', range: '*', hasData: true }
+24 silly addNameRange versions [ 'browser-sync',
+24 silly addNameRange   [ '0.1.0',
+24 silly addNameRange     '0.1.1',
+24 silly addNameRange     '0.1.3',
+24 silly addNameRange     '0.1.5',
+24 silly addNameRange     '0.1.6',
+24 silly addNameRange     '0.1.7',
+24 silly addNameRange     '0.1.8',
+24 silly addNameRange     '0.1.9',
+24 silly addNameRange     '0.1.10',
+24 silly addNameRange     '0.2.0',
+24 silly addNameRange     '0.2.1',
+24 silly addNameRange     '0.3.0',
+24 silly addNameRange     '0.3.1',
+24 silly addNameRange     '0.3.2',
+24 silly addNameRange     '0.3.3',
+24 silly addNameRange     '0.3.4',
+24 silly addNameRange     '0.3.5',
+24 silly addNameRange     '0.3.6',
+24 silly addNameRange     '0.3.7',
+24 silly addNameRange     '0.3.8',
+24 silly addNameRange     '0.3.10',
+24 silly addNameRange     '0.4.0',
+24 silly addNameRange     '0.4.1',
+24 silly addNameRange     '0.4.2',
+24 silly addNameRange     '0.4.21',
+24 silly addNameRange     '0.4.3',
+24 silly addNameRange     '0.4.4',
+24 silly addNameRange     '0.4.5',
+24 silly addNameRange     '0.4.6',
+24 silly addNameRange     '0.4.7',
+24 silly addNameRange     '0.4.8',
+24 silly addNameRange     '0.4.9',
+24 silly addNameRange     '0.4.10',
+24 silly addNameRange     '0.4.11',
+24 silly addNameRange     '0.4.12',
+24 silly addNameRange     '0.5.0',
+24 silly addNameRange     '0.5.1',
+24 silly addNameRange     '0.5.2',
+24 silly addNameRange     '0.5.3',
+24 silly addNameRange     '0.5.4',
+24 silly addNameRange     '0.5.5',
+24 silly addNameRange     '0.5.6',
+24 silly addNameRange     '0.5.7',
+24 silly addNameRange     '0.5.8',
+24 silly addNameRange     '0.5.9',
+24 silly addNameRange     '0.6.0',
+24 silly addNameRange     '0.6.1',
+24 silly addNameRange     '0.6.2',
+24 silly addNameRange     '0.7.0',
+24 silly addNameRange     '0.7.1',
+24 silly addNameRange     '0.7.2',
+24 silly addNameRange     '0.7.3',
+24 silly addNameRange     '0.7.4',
+24 silly addNameRange     '0.7.5',
+24 silly addNameRange     '0.7.7',
+24 silly addNameRange     '0.8.0',
+24 silly addNameRange     '0.8.1',
+24 silly addNameRange     '0.8.2',
+24 silly addNameRange     '0.9.0',
+24 silly addNameRange     '0.9.1',
+24 silly addNameRange     '1.0.0',
+24 silly addNameRange     '1.1.0',
+24 silly addNameRange     '1.1.1',
+24 silly addNameRange     '1.1.2',
+24 silly addNameRange     '1.2.0',
+24 silly addNameRange     '1.2.1',
+24 silly addNameRange     '1.3.0',
+24 silly addNameRange     '1.3.2',
+24 silly addNameRange     '1.3.3',
+24 silly addNameRange     '1.3.4',
+24 silly addNameRange     '1.3.5',
+24 silly addNameRange     '1.3.6',
+24 silly addNameRange     '1.3.7',
+24 silly addNameRange     '1.5.0',
+24 silly addNameRange     '1.5.1',
+24 silly addNameRange     '1.5.2',
+24 silly addNameRange     '1.5.3',
+24 silly addNameRange     '1.5.4',
+24 silly addNameRange     '1.5.5',
+24 silly addNameRange     '1.5.6',
+24 silly addNameRange     '1.5.7',
+24 silly addNameRange     '1.5.8',
+24 silly addNameRange     '1.5.9',
+24 silly addNameRange     '1.6.0',
+24 silly addNameRange     '1.6.1',
+24 silly addNameRange     '1.6.2',
+24 silly addNameRange     '1.6.3',
+24 silly addNameRange     '1.6.4',
+24 silly addNameRange     '1.6.5',
+24 silly addNameRange     '1.7.0',
+24 silly addNameRange     '1.7.1',
+24 silly addNameRange     '1.7.2',
+24 silly addNameRange     '1.7.3',
+24 silly addNameRange     '1.8.0',
+24 silly addNameRange     '1.8.1',
+24 silly addNameRange     '1.8.2',
+24 silly addNameRange     '1.8.3',
+24 silly addNameRange     '1.9.0',
+24 silly addNameRange     '1.9.1',
+24 silly addNameRange     '2.0.0-rc1',
+24 silly addNameRange     '2.0.0-rc2',
+24 silly addNameRange     '2.0.0-rc3',
+24 silly addNameRange     '2.0.0-rc4',
+24 silly addNameRange     '2.0.0-rc5',
+24 silly addNameRange     '2.0.0-rc6',
+24 silly addNameRange     '2.0.0-rc7',
+24 silly addNameRange     '2.0.0-rc8',
+24 silly addNameRange     '2.0.0-rc9',
+24 silly addNameRange     '2.0.0-rc10',
+24 silly addNameRange     '2.0.0',
+24 silly addNameRange     '2.0.1',
+24 silly addNameRange     '2.1.0',
+24 silly addNameRange     '2.1.1',
+24 silly addNameRange     '2.1.2',
+24 silly addNameRange     '2.1.3',
+24 silly addNameRange     '2.1.4',
+24 silly addNameRange     '2.1.6',
+24 silly addNameRange     '2.2.0',
+24 silly addNameRange     '2.2.1',
+24 silly addNameRange     '2.2.2',
+24 silly addNameRange     '2.2.3',
+24 silly addNameRange     '2.2.4',
+24 silly addNameRange     '2.2.5',
+24 silly addNameRange     '2.3.0',
+24 silly addNameRange     '2.3.1',
+24 silly addNameRange     '2.3.2',
+24 silly addNameRange     '2.4.0',
+24 silly addNameRange     '2.4.1',
+24 silly addNameRange     '2.5.0',
+24 silly addNameRange     '2.5.1',
+24 silly addNameRange     '2.5.2',
+24 silly addNameRange     '2.5.3',
+24 silly addNameRange     '2.6.0',
+24 silly addNameRange     '2.6.1',
+24 silly addNameRange     '2.6.2',
+24 silly addNameRange     '2.6.3',
+24 silly addNameRange     '2.6.4',
+24 silly addNameRange     '2.6.5',
+24 silly addNameRange     '2.6.6',
+24 silly addNameRange     '1.9.2',
+24 silly addNameRange     '2.6.7',
+24 silly addNameRange     '2.6.8',
+24 silly addNameRange     '2.6.9',
+24 silly addNameRange     '2.6.10',
+24 silly addNameRange     '2.6.11',
+24 silly addNameRange     '2.7.0',
+24 silly addNameRange     '2.7.1',
+24 silly addNameRange     '2.7.2',
+24 silly addNameRange     '2.7.3',
+24 silly addNameRange     '2.7.4',
+24 silly addNameRange     '2.7.5',
+24 silly addNameRange     '2.7.6',
+24 silly addNameRange     '2.7.7',
+24 silly addNameRange     '2.7.8',
+24 silly addNameRange     '2.7.9',
+24 silly addNameRange     '2.7.10',
+24 silly addNameRange     '2.7.11',
+24 silly addNameRange     '2.7.12',
+24 silly addNameRange     '2.7.13',
+24 silly addNameRange     '2.8.0',
+24 silly addNameRange     '2.8.1',
+24 silly addNameRange     '2.8.2',
+24 silly addNameRange     '2.8.3',
+24 silly addNameRange     '2.9.0',
+24 silly addNameRange     '2.9.1',
+24 silly addNameRange     '2.9.2',
+24 silly addNameRange     '2.9.3',
+24 silly addNameRange     '2.9.4',
+24 silly addNameRange     '2.9.5',
+24 silly addNameRange     '2.9.6',
+24 silly addNameRange     '2.9.7',
+24 silly addNameRange     '2.9.8',
+24 silly addNameRange     '2.9.9',
+24 silly addNameRange     '2.9.10',
+24 silly addNameRange     '2.9.11',
+24 silly addNameRange     '2.9.12',
+24 silly addNameRange     '2.10.0',
+24 silly addNameRange     '2.10.1',
+24 silly addNameRange     '2.11.0',
+24 silly addNameRange     '2.11.1',
+24 silly addNameRange     '2.11.2',
+24 silly addNameRange     '2.12.1',
+24 silly addNameRange     '2.12.2',
+24 silly addNameRange     '2.12.3',
+24 silly addNameRange     '2.12.4',
+24 silly addNameRange     '2.12.5',
+24 silly addNameRange     '2.12.6',
+24 silly addNameRange     '2.12.7',
+24 silly addNameRange     '2.12.8',
+24 silly addNameRange     '2.12.9',
+24 silly addNameRange     '2.12.10',
+24 silly addNameRange     '2.12.11',
+24 silly addNameRange     '2.12.12',
+24 silly addNameRange     '2.13.0',
+24 silly addNameRange     '2.14.0',
+24 silly addNameRange     '2.14.1',
+24 silly addNameRange     '2.14.2',
+24 silly addNameRange     '2.14.3',
+24 silly addNameRange     '2.15.0',
+24 silly addNameRange     '2.16.0',
+24 silly addNameRange     '2.16.1',
+24 silly addNameRange     '2.17.0',
+24 silly addNameRange     '2.17.1',
+24 silly addNameRange     '2.17.2',
+24 silly addNameRange     '2.17.3',
+24 silly addNameRange     '2.17.4',
+24 silly addNameRange     '2.17.5',
+24 silly addNameRange     '2.17.6',
+24 silly addNameRange     '2.18.0',
+24 silly addNameRange     '2.18.1',
+24 silly addNameRange     '2.18.2',
+24 silly addNameRange     '2.18.3',
+24 silly addNameRange     '2.18.4',
+24 silly addNameRange     '2.18.5',
+24 silly addNameRange     '2.18.6',
+24 silly addNameRange     '2.18.7',
+24 silly addNameRange     '2.18.8',
+24 silly addNameRange     '2.18.9',
+24 silly addNameRange     '2.18.10',
+24 silly addNameRange     '2.18.11',
+24 silly addNameRange     '2.18.12',
+24 silly addNameRange     '2.18.13',
+24 silly addNameRange     '2.19.0',
+24 silly addNameRange     '2.20.0',
+24 silly addNameRange     '2.20.1',
+24 silly addNameRange     '2.21.0',
+24 silly addNameRange     '2.22.0',
+24 silly addNameRange     '2.23.0',
+24 silly addNameRange     '2.23.1',
+24 silly addNameRange     '2.23.2',
+24 silly addNameRange     '2.23.3' ] ]
+25 verbose addNamed [ 'browser-sync', '2.23.3' ]
+26 verbose addNamed [ '2.23.3', '2.23.3' ]
+27 silly lockFile 19bfb6e4-browser-sync-2-23-3 browser-sync@2.23.3
+28 verbose lock browser-sync@2.23.3 /home/nathan/.npm/19bfb6e4-browser-sync-2-23-3.lock
+29 silly lockFile 3271ef76-ser-sync-browser-sync-2-23-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz
+30 verbose lock https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz /home/nathan/.npm/3271ef76-ser-sync-browser-sync-2-23-3-tgz.lock
+31 verbose addRemoteTarball [ 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz',
+31 verbose addRemoteTarball   '0ad79c6a9ac67115d575ba4de88a9111121b177e' ]
+32 info retry fetch attempt 1 at 20:18:45
+33 verbose fetch to= /home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz
+34 http GET https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz
+35 http 200 https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz
+36 verbose tar unpack /home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz
+37 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+38 verbose lock tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package /home/nathan/.npm/c54f1eb8-25750-0-9498912780545652-package.lock
+39 silly lockFile 13f64b19-25750-0-9498912780545652-tmp-tgz tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz
+40 verbose lock tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz /home/nathan/.npm/13f64b19-25750-0-9498912780545652-tmp-tgz.lock
+41 silly gunzTarPerm modes [ '755', '644' ]
+42 silly gunzTarPerm extractEntry package.json
+43 silly gunzTarPerm extractEntry changelog.js
+44 silly gunzTarPerm extractEntry CHANGELOG.md
+45 silly gunzTarPerm extractEntry LICENSE
+46 silly gunzTarPerm extractEntry README.md
+47 silly gunzTarPerm extractEntry certs/browsersync.pfx
+48 silly gunzTarPerm extractEntry certs/gen.sh
+49 silly gunzTarPerm extractEntry certs/server.crt
+50 silly gunzTarPerm extractEntry certs/server.csr
+51 silly gunzTarPerm extractEntry certs/server.key
+52 silly gunzTarPerm extractEntry cli-options/opts.init.json
+53 silly gunzTarPerm extractEntry cli-options/opts.recipe.json
+54 silly gunzTarPerm extractEntry cli-options/opts.reload.json
+55 silly gunzTarPerm extractEntry cli-options/opts.start.json
+56 silly gunzTarPerm extractEntry client/dist/.gitkeep
+57 silly gunzTarPerm extractEntry client/dist/index.js
+58 silly gunzTarPerm extractEntry client/dist/index.js.map
+59 silly gunzTarPerm extractEntry client/dist/index.min.js
+60 silly gunzTarPerm extractEntry client/dist/index.min.js.map
+61 silly gunzTarPerm extractEntry client/README.md
+62 silly gunzTarPerm extractEntry dist/args.js
+63 silly gunzTarPerm extractEntry dist/args.js.map
+64 silly gunzTarPerm extractEntry dist/async-tasks.js
+65 silly gunzTarPerm extractEntry dist/async-tasks.js.map
+66 silly gunzTarPerm extractEntry dist/async.js
+67 silly gunzTarPerm extractEntry dist/async.js.map
+68 silly gunzTarPerm extractEntry dist/bin.js
+69 silly gunzTarPerm extractEntry dist/bin.js.map
+70 silly gunzTarPerm extractEntry dist/browser-sync.js
+71 silly gunzTarPerm extractEntry dist/browser-sync.js.map
+72 silly gunzTarPerm extractEntry dist/cli/cli-info.js
+73 silly gunzTarPerm extractEntry dist/cli/cli-info.js.map
+74 silly gunzTarPerm extractEntry dist/cli/cli-options.js
+75 silly gunzTarPerm extractEntry dist/cli/cli-options.js.map
+76 silly gunzTarPerm extractEntry dist/cli/command.init.js
+77 silly gunzTarPerm extractEntry dist/cli/command.init.js.map
+78 silly gunzTarPerm extractEntry dist/cli/command.recipe.js
+79 silly gunzTarPerm extractEntry dist/cli/command.recipe.js.map
+80 silly gunzTarPerm extractEntry dist/cli/command.reload.js
+81 silly gunzTarPerm extractEntry dist/cli/command.reload.js.map
+82 silly gunzTarPerm extractEntry dist/cli/command.start.js
+83 silly gunzTarPerm extractEntry dist/cli/command.start.js.map
+84 silly gunzTarPerm extractEntry dist/cli/transforms/addCwdToWatchOptions.js
+85 silly gunzTarPerm extractEntry dist/cli/transforms/addCwdToWatchOptions.js.map
+86 silly gunzTarPerm extractEntry dist/cli/transforms/addDefaultIgnorePatterns.js
+87 silly gunzTarPerm extractEntry dist/cli/transforms/addDefaultIgnorePatterns.js.map
+88 silly gunzTarPerm extractEntry dist/cli/transforms/addToFilesOption.js
+89 silly gunzTarPerm extractEntry dist/cli/transforms/addToFilesOption.js.map
+90 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerDirectoryOption.js
+91 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerDirectoryOption.js.map
+92 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerIndexOption.js
+93 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerIndexOption.js.map
+94 silly gunzTarPerm extractEntry dist/cli/transforms/copyCLIIgnoreToWatchOptions.js
+95 silly gunzTarPerm extractEntry dist/cli/transforms/copyCLIIgnoreToWatchOptions.js.map
+96 silly gunzTarPerm extractEntry dist/cli/transforms/handleExtensionsOption.js
+97 silly gunzTarPerm extractEntry dist/cli/transforms/handleExtensionsOption.js.map
+98 silly gunzTarPerm extractEntry dist/cli/transforms/handleFilesOption.js
+99 silly gunzTarPerm extractEntry dist/cli/transforms/handleFilesOption.js.map
+100 silly gunzTarPerm extractEntry dist/cli/transforms/handleGhostModeOption.js
+101 silly gunzTarPerm extractEntry dist/cli/transforms/handleGhostModeOption.js.map
+102 silly gunzTarPerm extractEntry dist/cli/transforms/handlePortsOption.js
+103 silly gunzTarPerm extractEntry dist/cli/transforms/handlePortsOption.js.map
+104 silly gunzTarPerm extractEntry dist/cli/transforms/handleProxyOption.js
+105 silly gunzTarPerm extractEntry dist/cli/transforms/handleProxyOption.js.map
+106 silly gunzTarPerm extractEntry dist/cli/transforms/handleServerOption.js
+107 silly gunzTarPerm extractEntry dist/cli/transforms/handleServerOption.js.map
+108 silly gunzTarPerm extractEntry dist/client.js
+109 silly gunzTarPerm extractEntry dist/client.js.map
+110 silly gunzTarPerm extractEntry dist/config.js
+111 silly gunzTarPerm extractEntry dist/config.js.map
+112 silly gunzTarPerm extractEntry dist/connect-utils.js
+113 silly gunzTarPerm extractEntry dist/connect-utils.js.map
+114 silly gunzTarPerm extractEntry dist/default-config.js
+115 silly gunzTarPerm extractEntry dist/default-config.js.map
+116 silly gunzTarPerm extractEntry dist/file-event-handler.js
+117 silly gunzTarPerm extractEntry dist/file-event-handler.js.map
+118 silly gunzTarPerm extractEntry dist/file-utils.js
+119 silly gunzTarPerm extractEntry dist/file-utils.js.map
+120 silly gunzTarPerm extractEntry dist/file-watcher.js
+121 silly gunzTarPerm extractEntry dist/file-watcher.js.map
+122 silly gunzTarPerm extractEntry dist/hooks.js
+123 silly gunzTarPerm extractEntry dist/hooks.js.map
+124 silly gunzTarPerm extractEntry dist/http-protocol.js
+125 silly gunzTarPerm extractEntry dist/http-protocol.js.map
+126 silly gunzTarPerm extractEntry dist/index.js
+127 silly gunzTarPerm extractEntry dist/index.js.map
+128 silly gunzTarPerm extractEntry dist/internal-events.js
+129 silly gunzTarPerm extractEntry dist/internal-events.js.map
+130 silly gunzTarPerm extractEntry dist/lodash.custom.js
+131 silly gunzTarPerm extractEntry dist/lodash.custom.js.map
+132 silly gunzTarPerm extractEntry dist/logger.js
+133 silly gunzTarPerm extractEntry dist/logger.js.map
+134 silly gunzTarPerm extractEntry dist/options.js
+135 silly gunzTarPerm extractEntry dist/options.js.map
+136 silly gunzTarPerm extractEntry dist/plugins.js
+137 silly gunzTarPerm extractEntry dist/plugins.js.map
+138 silly gunzTarPerm extractEntry dist/public/exit.js
+139 silly gunzTarPerm extractEntry dist/public/exit.js.map
+140 silly gunzTarPerm extractEntry dist/public/init.js
+141 silly gunzTarPerm extractEntry dist/public/init.js.map
+142 silly gunzTarPerm extractEntry dist/public/notify.js
+143 silly gunzTarPerm extractEntry dist/public/notify.js.map
+144 silly gunzTarPerm extractEntry dist/public/pause.js
+145 silly gunzTarPerm extractEntry dist/public/pause.js.map
+146 silly gunzTarPerm extractEntry dist/public/public-utils.js
+147 silly gunzTarPerm extractEntry dist/public/public-utils.js.map
+148 silly gunzTarPerm extractEntry dist/public/reload.js
+149 silly gunzTarPerm extractEntry dist/public/reload.js.map
+150 silly gunzTarPerm extractEntry dist/public/resume.js
+151 silly gunzTarPerm extractEntry dist/public/resume.js.map
+152 silly gunzTarPerm extractEntry dist/public/stream.js
+153 silly gunzTarPerm extractEntry dist/public/stream.js.map
+154 silly gunzTarPerm extractEntry dist/server/index.js
+155 silly gunzTarPerm extractEntry dist/server/index.js.map
+156 silly gunzTarPerm extractEntry dist/server/proxy-server.js
+157 silly gunzTarPerm extractEntry dist/server/proxy-server.js.map
+158 silly gunzTarPerm extractEntry dist/server/proxy-utils.js
+159 silly gunzTarPerm extractEntry dist/server/proxy-utils.js.map
+160 silly gunzTarPerm extractEntry dist/server/snippet-server.js
+161 silly gunzTarPerm extractEntry dist/server/snippet-server.js.map
+162 silly gunzTarPerm extractEntry dist/server/static-server.js
+163 silly gunzTarPerm extractEntry dist/server/static-server.js.map
+164 silly gunzTarPerm extractEntry dist/server/utils.js
+165 silly gunzTarPerm extractEntry dist/server/utils.js.map
+166 silly gunzTarPerm extractEntry dist/snippet.js
+167 silly gunzTarPerm extractEntry dist/snippet.js.map
+168 silly gunzTarPerm extractEntry dist/sockets.js
+169 silly gunzTarPerm extractEntry dist/sockets.js.map
+170 silly gunzTarPerm extractEntry dist/tunnel.js
+171 silly gunzTarPerm extractEntry dist/tunnel.js.map
+172 silly gunzTarPerm extractEntry dist/types.js
+173 silly gunzTarPerm extractEntry dist/types.js.map
+174 silly gunzTarPerm extractEntry dist/utils.js
+175 silly gunzTarPerm extractEntry dist/utils.js.map
+176 silly gunzTarPerm extractEntry templates/cli-template.js
+177 silly gunzTarPerm extractEntry templates/connector.tmpl
+178 silly gunzTarPerm extractEntry templates/script-tags-simple.tmpl
+179 silly gunzTarPerm extractEntry templates/script-tags.tmpl
+180 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+181 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+182 silly lockFile 13f64b19-25750-0-9498912780545652-tmp-tgz tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz
+183 silly lockFile 13f64b19-25750-0-9498912780545652-tmp-tgz tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/tmp.tgz
+184 verbose tar pack [ '/home/nathan/.npm/browser-sync/2.23.3/package.tgz',
+184 verbose tar pack   '/home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package' ]
+185 verbose tarball /home/nathan/.npm/browser-sync/2.23.3/package.tgz
+186 verbose folder /home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+187 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+188 verbose lock tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package /home/nathan/.npm/c54f1eb8-25750-0-9498912780545652-package.lock
+189 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+190 verbose lock tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz /home/nathan/.npm/5fdfc2d8--browser-sync-2-23-3-package-tgz.lock
+191 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+192 silly lockFile c54f1eb8-25750-0-9498912780545652-package tar:///home/nathan/tmp/npm-12050-YYHPoK-B/1515205125750-0.9498912780545652/package
+193 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+194 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+195 silly lockFile 9b66e765--npm-browser-sync-2-23-3-package /home/nathan/.npm/browser-sync/2.23.3/package
+196 verbose lock /home/nathan/.npm/browser-sync/2.23.3/package /home/nathan/.npm/9b66e765--npm-browser-sync-2-23-3-package.lock
+197 silly lockFile 9b66e765--npm-browser-sync-2-23-3-package /home/nathan/.npm/browser-sync/2.23.3/package
+198 silly lockFile 9b66e765--npm-browser-sync-2-23-3-package /home/nathan/.npm/browser-sync/2.23.3/package
+199 verbose tar unpack /home/nathan/.npm/browser-sync/2.23.3/package.tgz
+200 silly lockFile 054a82a6--npm-browser-sync-2-23-3-package tar:///home/nathan/.npm/browser-sync/2.23.3/package
+201 verbose lock tar:///home/nathan/.npm/browser-sync/2.23.3/package /home/nathan/.npm/054a82a6--npm-browser-sync-2-23-3-package.lock
+202 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+203 verbose lock tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz /home/nathan/.npm/5fdfc2d8--browser-sync-2-23-3-package-tgz.lock
+204 silly gunzTarPerm modes [ '755', '644' ]
+205 silly gunzTarPerm extractEntry package.json
+206 silly gunzTarPerm extractEntry README.md
+207 silly gunzTarPerm extractEntry certs/browsersync.pfx
+208 silly gunzTarPerm extractEntry certs/gen.sh
+209 silly gunzTarPerm extractEntry certs/server.crt
+210 silly gunzTarPerm extractEntry certs/server.csr
+211 silly gunzTarPerm extractEntry certs/server.key
+212 silly gunzTarPerm extractEntry cli-options/opts.init.json
+213 silly gunzTarPerm extractEntry cli-options/opts.recipe.json
+214 silly gunzTarPerm extractEntry cli-options/opts.reload.json
+215 silly gunzTarPerm extractEntry cli-options/opts.start.json
+216 silly gunzTarPerm extractEntry client/README.md
+217 silly gunzTarPerm extractEntry client/dist/index.js
+218 silly gunzTarPerm extractEntry client/dist/index.min.js
+219 silly gunzTarPerm extractEntry client/dist/.gitkeep
+220 silly gunzTarPerm extractEntry client/dist/index.js.map
+221 silly gunzTarPerm extractEntry client/dist/index.min.js.map
+222 silly gunzTarPerm extractEntry dist/args.js
+223 silly gunzTarPerm extractEntry dist/file-event-handler.js
+224 silly gunzTarPerm extractEntry dist/file-utils.js
+225 silly gunzTarPerm extractEntry dist/file-watcher.js
+226 silly gunzTarPerm extractEntry dist/default-config.js
+227 silly gunzTarPerm extractEntry dist/http-protocol.js
+228 silly gunzTarPerm extractEntry dist/index.js
+229 silly gunzTarPerm extractEntry dist/internal-events.js
+230 silly gunzTarPerm extractEntry dist/lodash.custom.js
+231 silly gunzTarPerm extractEntry dist/logger.js
+232 silly gunzTarPerm extractEntry dist/connect-utils.js
+233 silly gunzTarPerm extractEntry dist/options.js
+234 silly gunzTarPerm extractEntry dist/config.js
+235 silly gunzTarPerm extractEntry dist/plugins.js
+236 silly gunzTarPerm extractEntry dist/client.js
+237 silly gunzTarPerm extractEntry dist/snippet.js
+238 silly gunzTarPerm extractEntry dist/browser-sync.js
+239 silly gunzTarPerm extractEntry dist/sockets.js
+240 silly gunzTarPerm extractEntry dist/bin.js
+241 silly gunzTarPerm extractEntry dist/tunnel.js
+242 silly gunzTarPerm extractEntry dist/async.js
+243 silly gunzTarPerm extractEntry dist/types.js
+244 silly gunzTarPerm extractEntry dist/async-tasks.js
+245 silly gunzTarPerm extractEntry dist/utils.js
+246 silly gunzTarPerm extractEntry dist/hooks.js
+247 silly gunzTarPerm extractEntry dist/client.js.map
+248 silly gunzTarPerm extractEntry dist/args.js.map
+249 silly gunzTarPerm extractEntry dist/async-tasks.js.map
+250 silly gunzTarPerm extractEntry dist/http-protocol.js.map
+251 silly gunzTarPerm extractEntry dist/config.js.map
+252 silly gunzTarPerm extractEntry dist/index.js.map
+253 silly gunzTarPerm extractEntry dist/bin.js.map
+254 silly gunzTarPerm extractEntry dist/internal-events.js.map
+255 silly gunzTarPerm extractEntry dist/connect-utils.js.map
+256 silly gunzTarPerm extractEntry dist/lodash.custom.js.map
+257 silly gunzTarPerm extractEntry dist/utils.js.map
+258 silly gunzTarPerm extractEntry dist/logger.js.map
+259 silly gunzTarPerm extractEntry dist/default-config.js.map
+260 silly gunzTarPerm extractEntry dist/options.js.map
+261 silly gunzTarPerm extractEntry dist/browser-sync.js.map
+262 silly gunzTarPerm extractEntry dist/plugins.js.map
+263 silly gunzTarPerm extractEntry dist/public/exit.js
+264 silly gunzTarPerm extractEntry dist/public/init.js
+265 silly gunzTarPerm extractEntry dist/public/stream.js
+266 silly gunzTarPerm extractEntry dist/public/notify.js
+267 silly gunzTarPerm extractEntry dist/public/resume.js
+268 silly gunzTarPerm extractEntry dist/public/pause.js
+269 silly gunzTarPerm extractEntry dist/public/reload.js
+270 silly gunzTarPerm extractEntry dist/public/public-utils.js
+271 silly gunzTarPerm extractEntry dist/public/exit.js.map
+272 silly gunzTarPerm extractEntry dist/public/public-utils.js.map
+273 silly gunzTarPerm extractEntry dist/public/pause.js.map
+274 silly gunzTarPerm extractEntry dist/public/reload.js.map
+275 silly gunzTarPerm extractEntry dist/public/notify.js.map
+276 silly gunzTarPerm extractEntry dist/public/resume.js.map
+277 silly gunzTarPerm extractEntry dist/public/init.js.map
+278 silly gunzTarPerm extractEntry dist/public/stream.js.map
+279 silly gunzTarPerm extractEntry dist/server/index.js
+280 silly gunzTarPerm extractEntry dist/server/proxy-server.js
+281 silly gunzTarPerm extractEntry dist/server/utils.js
+282 silly gunzTarPerm extractEntry dist/server/proxy-utils.js
+283 silly gunzTarPerm extractEntry dist/server/static-server.js
+284 silly gunzTarPerm extractEntry dist/server/snippet-server.js
+285 silly gunzTarPerm extractEntry dist/server/index.js.map
+286 silly gunzTarPerm extractEntry dist/server/snippet-server.js.map
+287 silly gunzTarPerm extractEntry dist/server/proxy-utils.js.map
+288 silly gunzTarPerm extractEntry dist/server/static-server.js.map
+289 silly gunzTarPerm extractEntry dist/server/proxy-server.js.map
+290 silly gunzTarPerm extractEntry dist/server/utils.js.map
+291 silly gunzTarPerm extractEntry dist/file-event-handler.js.map
+292 silly gunzTarPerm extractEntry dist/snippet.js.map
+293 silly gunzTarPerm extractEntry dist/cli/cli-info.js
+294 silly gunzTarPerm extractEntry dist/cli/cli-options.js
+295 silly gunzTarPerm extractEntry dist/cli/command.start.js
+296 silly gunzTarPerm extractEntry dist/cli/command.init.js
+297 silly gunzTarPerm extractEntry dist/cli/command.reload.js
+298 silly gunzTarPerm extractEntry dist/cli/command.recipe.js
+299 silly gunzTarPerm extractEntry dist/cli/cli-info.js.map
+300 silly gunzTarPerm extractEntry dist/cli/command.recipe.js.map
+301 silly gunzTarPerm extractEntry dist/cli/command.init.js.map
+302 silly gunzTarPerm extractEntry dist/cli/command.reload.js.map
+303 silly gunzTarPerm extractEntry dist/cli/cli-options.js.map
+304 silly gunzTarPerm extractEntry dist/cli/command.start.js.map
+305 silly gunzTarPerm extractEntry dist/cli/transforms/addCwdToWatchOptions.js
+306 silly gunzTarPerm extractEntry dist/cli/transforms/handleServerOption.js
+307 silly gunzTarPerm extractEntry dist/cli/transforms/addToFilesOption.js
+308 silly gunzTarPerm extractEntry dist/cli/transforms/handleProxyOption.js
+309 silly gunzTarPerm extractEntry dist/cli/transforms/addDefaultIgnorePatterns.js
+310 silly gunzTarPerm extractEntry dist/cli/transforms/handlePortsOption.js
+311 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerIndexOption.js
+312 silly gunzTarPerm extractEntry dist/cli/transforms/handleGhostModeOption.js
+313 silly gunzTarPerm extractEntry dist/cli/transforms/copyCLIIgnoreToWatchOptions.js
+314 silly gunzTarPerm extractEntry dist/cli/transforms/handleFilesOption.js
+315 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerDirectoryOption.js
+316 silly gunzTarPerm extractEntry dist/cli/transforms/handleExtensionsOption.js
+317 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerDirectoryOption.js.map
+318 silly gunzTarPerm extractEntry dist/cli/transforms/addCwdToWatchOptions.js.map
+319 silly gunzTarPerm extractEntry dist/cli/transforms/copyCLIIgnoreToWatchOptions.js.map
+320 silly gunzTarPerm extractEntry dist/cli/transforms/handleFilesOption.js.map
+321 silly gunzTarPerm extractEntry dist/cli/transforms/appendServerIndexOption.js.map
+322 silly gunzTarPerm extractEntry dist/cli/transforms/handleGhostModeOption.js.map
+323 silly gunzTarPerm extractEntry dist/cli/transforms/handleExtensionsOption.js.map
+324 silly gunzTarPerm extractEntry dist/cli/transforms/handlePortsOption.js.map
+325 silly gunzTarPerm extractEntry dist/cli/transforms/addToFilesOption.js.map
+326 silly gunzTarPerm extractEntry dist/cli/transforms/handleProxyOption.js.map
+327 silly gunzTarPerm extractEntry dist/cli/transforms/addDefaultIgnorePatterns.js.map
+328 silly gunzTarPerm extractEntry dist/cli/transforms/handleServerOption.js.map
+329 silly gunzTarPerm extractEntry dist/sockets.js.map
+330 silly gunzTarPerm extractEntry dist/file-utils.js.map
+331 silly gunzTarPerm extractEntry dist/tunnel.js.map
+332 silly gunzTarPerm extractEntry dist/async.js.map
+333 silly gunzTarPerm extractEntry dist/types.js.map
+334 silly gunzTarPerm extractEntry dist/file-watcher.js.map
+335 silly gunzTarPerm extractEntry dist/hooks.js.map
+336 silly gunzTarPerm extractEntry templates/cli-template.js
+337 silly gunzTarPerm extractEntry templates/connector.tmpl
+338 silly gunzTarPerm extractEntry templates/script-tags-simple.tmpl
+339 silly gunzTarPerm extractEntry templates/script-tags.tmpl
+340 silly lockFile 054a82a6--npm-browser-sync-2-23-3-package tar:///home/nathan/.npm/browser-sync/2.23.3/package
+341 silly lockFile 054a82a6--npm-browser-sync-2-23-3-package tar:///home/nathan/.npm/browser-sync/2.23.3/package
+342 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+343 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+344 verbose chmod /home/nathan/.npm/browser-sync/2.23.3/package.tgz 644
+345 verbose chown /home/nathan/.npm/browser-sync/2.23.3/package.tgz [ 1000, 1000 ]
+346 silly lockFile 3271ef76-ser-sync-browser-sync-2-23-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz
+347 silly lockFile 3271ef76-ser-sync-browser-sync-2-23-3-tgz https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz
+348 silly lockFile 19bfb6e4-browser-sync-2-23-3 browser-sync@2.23.3
+349 silly lockFile 19bfb6e4-browser-sync-2-23-3 browser-sync@2.23.3
+350 silly lockFile 6373e9ab-browser-sync browser-sync@
+351 silly lockFile 6373e9ab-browser-sync browser-sync@
+352 silly resolved [ { name: 'browser-sync',
+352 silly resolved     description: 'Live CSS Reload & Browser Syncing',
+352 silly resolved     version: '2.23.3',
+352 silly resolved     homepage: 'https://browsersync.io/',
+352 silly resolved     author: { name: 'Shane Osbourne' },
+352 silly resolved     repository:
+352 silly resolved      { type: 'git',
+352 silly resolved        url: 'git://github.com/BrowserSync/browser-sync' },
+352 silly resolved     license: 'Apache-2.0',
+352 silly resolved     main: 'dist/index.js',
+352 silly resolved     bin: { 'browser-sync': 'dist/bin.js' },
+352 silly resolved     files: [ 'dist', 'certs', 'templates', 'cli-options', 'client/dist' ],
+352 silly resolved     engines: { node: '>= 0.8.0' },
+352 silly resolved     scripts:
+352 silly resolved      { env: 'node ./test/env.js',
+352 silly resolved        test: 'npm run env && npm run unit',
+352 silly resolved        lint: 'prettier \'lib/**/*\' \'examples/*\' \'test/specs/**/*\' \'test/specs/*.js\'  --write --tab-width 4',
+352 silly resolved        pro: 'protractor test/protractor/config.single.js',
+352 silly resolved        'pro-local': 'node test/protractor/setup.js',
+352 silly resolved        unit: 'mocha --recursive test/specs --timeout 10000 --bail',
+352 silly resolved        cover: 'npm run env && npm run cover-local && npm run coveralls',
+352 silly resolved        'cover-local': 'istanbul cover -x lodash.custom.js _mocha -- --timeout 10000 --recursive ./test/specs',
+352 silly resolved        coveralls: 'istanbul-coveralls',
+352 silly resolved        'pre-release': 'npm test && npm run pro-local && npm run pro',
+352 silly resolved        lodash: 'lodash include=isUndefined,isFunction,toArray,includes,union,each,isString,merge,isObject,set exports=node',
+352 silly resolved        prepublish: 'tsc' },
+352 silly resolved     dependencies:
+352 silly resolved      { 'browser-sync-ui': 'v1.0.1',
+352 silly resolved        'bs-recipes': '1.3.4',
+352 silly resolved        chokidar: '1.7.0',
+352 silly resolved        connect: '3.5.0',
+352 silly resolved        'connect-history-api-fallback': '^1.5.0',
+352 silly resolved        'dev-ip': '^1.0.1',
+352 silly resolved        'easy-extender': '2.3.2',
+352 silly resolved        'eazy-logger': '3.0.2',
+352 silly resolved        'emitter-steward': '^1.0.0',
+352 silly resolved        etag: '^1.8.1',
+352 silly resolved        fresh: '^0.5.2',
+352 silly resolved        'fs-extra': '3.0.1',
+352 silly resolved        'http-proxy': '1.15.2',
+352 silly resolved        immutable: '3.8.1',
+352 silly resolved        localtunnel: '1.8.3',
+352 silly resolved        micromatch: '2.3.11',
+352 silly resolved        opn: '4.0.2',
+352 silly resolved        portscanner: '2.1.1',
+352 silly resolved        qs: '6.2.1',
+352 silly resolved        'resp-modifier': '6.0.2',
+352 silly resolved        rx: '4.1.0',
+352 silly resolved        'serve-index': '1.8.0',
+352 silly resolved        'serve-static': '1.12.2',
+352 silly resolved        'server-destroy': '1.0.1',
+352 silly resolved        'socket.io': '2.0.4',
+352 silly resolved        'ua-parser-js': '0.7.12',
+352 silly resolved        yargs: '6.4.0' },
+352 silly resolved     devDependencies:
+352 silly resolved      { '@types/node': '^8.5.2',
+352 silly resolved        'browser-sync-spa': '1.0.3',
+352 silly resolved        'bs-html-injector': '3.0.3',
+352 silly resolved        'bs-latency': '1.0.0',
+352 silly resolved        'bs-rewrite-rules': '2.0.0',
+352 silly resolved        'bs-snippet-injector': '2.0.1',
+352 silly resolved        chai: '3.5.0',
+352 silly resolved        chalk: '1.1.3',
+352 silly resolved        compression: '1.6.2',
+352 silly resolved        crossbow: 'latest',
+352 silly resolved        'generate-changelog': '^1.7.0',
+352 silly resolved        'graceful-fs': '4.1.9',
+352 silly resolved        gulp: '3.9.1',
+352 silly resolved        'gulp-contribs': '0.0.3',
+352 silly resolved        'gulp-conventional-changelog': '1.1.0',
+352 silly resolved        'gulp-filter': '4.0.0',
+352 silly resolved        http2: '^3.3.6',
+352 silly resolved        istanbul: '0.4.5',
+352 silly resolved        'istanbul-coveralls': '1.0.3',
+352 silly resolved        'lodash-cli': '4.17.4',
+352 silly resolved        mocha: '3.4.1',
+352 silly resolved        prettier: '^1.9.2',
+352 silly resolved        q: '1.4.1',
+352 silly resolved        request: '2.79.0',
+352 silly resolved        requirejs: '^2.3.5',
+352 silly resolved        rimraf: '2.5.4',
+352 silly resolved        sinon: '1.17.5',
+352 silly resolved        'socket.io-client': '^2.0.4',
+352 silly resolved        'source-map-support': '^0.5.0',
+352 silly resolved        supertest: '2.0.0',
+352 silly resolved        typescript: '^2.6.2',
+352 silly resolved        vinyl: '1.2.0' },
+352 silly resolved     keywords: [ 'browser sync', 'css', 'live reload', 'sync' ],
+352 silly resolved     readme: '<p align="center">\n<a href="https://ci.appveyor.com/project/shakyShane/browser-sync" title="AppVeyor branch">\n <img src="https://img.shields.io/appveyor/ci/shakyshane/browser-sync/master.svg?style=flat-square&label=windows" />\n</a><a href="https://travis-ci.org/BrowserSync/browser-sync" title="Travis branch">\n <img src="https://img.shields.io/travis/BrowserSync/browser-sync/master.svg?style=flat-square&label=linux" />\n</a><a href="https://www.npmjs.com/package/browser-sync">\n <img src="https://img.shields.io/npm/dm/browser-sync.svg?style=flat-square" />\n</a>\n</p>\n<p align="center">\n<a href="https://www.npmjs.com/package/browser-sync" title="NPM version">\n <img src="https://img.shields.io/npm/v/browser-sync.svg?style=flat-square" />\n</a><a href="https://david-dm.org/Browsersync/browser-sync" title="Dependency Status">\n <img src="https://img.shields.io/david/Browsersync/browser-sync.svg?style=flat-square&label=deps" />\n</a>\n<a href="https://david-dm.org/Browsersync/browser-sync#info=devDependencies" title="devDependency Status">\n <img src="https://img.shields.io/david/dev/Browsersync/browser-sync.svg?style=flat-square&label=devDeps" />\n</a>\n</p>\n<p align="center"><a href="http://www.browsersync.io"><img src="https://raw.githubusercontent.com/BrowserSync/browsersync.github.io/master/public/img/logo-gh.png" /></a></p>\n<p align="center">Keep multiple browsers & devices in sync when building websites.</p>\n\n<p align="center">Browsersync is developed and maintained internally at <a href="http://www.wearejh.com">JH</a></p>\n<p align="center">Follow <a href="https://twitter.com/browsersync">@Browsersync</a> on twitter for news & updates.</p>\n<p align="center">Community <a href="https://browsersync.herokuapp.com"><img src="https://browsersync.herokuapp.com/badge.svg" /></a></p>\n\n## Features\n\nPlease visit [browsersync.io](http://browsersync.io) for a full run-down of features\n\n## Requirements\n\nBrowsersync works by injecting an asynchronous script tag (`<script async>...</script>`) right after the `<body>` tag\nduring initial request. In order for this to work properly the `<body>` tag must be present. Alternatively you\ncan provide a custom rule for the snippet using [snippetOptions](http://www.browsersync.io/docs/options/#option-snippetOptions)\n\n## Upgrading from 1.x to 2.x ?\nProviding you haven\'t accessed any internal properties, everything will just work as\n there are no breaking changes to the public API. Internally however, we now use an\n immutable data structure for storing/retrieving options. So whereas before you could access urls like this...\n\n```js\nbrowserSync({server: true}, function(err, bs) {\n    console.log(bs.options.urls.local);\n});\n```\n\n... you now access them in the following way:\n\n```js\nbrowserSync({server: true}, function(err, bs) {\n    console.log(bs.options.getIn(["urls", "local"]));\n});\n```\n\n## Install and trouble shooting\n\n[browsersync.io docs](http://browsersync.io)\n\n## Integrations / recipes\n\n[Browsersync recipes](https://github.com/Browsersync/recipes)\n\n## Support\n\nIf you\'ve found Browser-sync useful and would like to contribute to its continued development & support, please feel free to send a donation of any size - it would be greatly appreciated!\n\n[![Support via Gittip](https://rawgithub.com/chris---/Donation-Badges/master/gittip.jpeg)](https://www.gittip.com/shakyshane)\n[![Support via PayPal](https://rawgithub.com/chris---/Donation-Badges/master/paypal.jpeg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=shakyshane%40gmail%2ecom&lc=US&item_name=browser%2dsync)\n\n\nApache 2\nCopyright (c) 2016 Shane Osbourne\n',
+352 silly resolved     readmeFilename: 'README.md',
+352 silly resolved     bugs: { url: 'https://github.com/BrowserSync/browser-sync/issues' },
+352 silly resolved     _id: 'browser-sync@2.23.3',
+352 silly resolved     dist: { shasum: 'f052de1a2a5fc627d459d8088befdaa780646e17' },
+352 silly resolved     _from: 'browser-sync@',
+352 silly resolved     _resolved: 'https://registry.npmjs.org/browser-sync/-/browser-sync-2.23.3.tgz' } ]
+353 info install browser-sync@2.23.3 into /usr/local/lib
+354 info installOne browser-sync@2.23.3
+355 info /usr/local/lib/node_modules/browser-sync unbuild
+356 verbose tar unpack /home/nathan/.npm/browser-sync/2.23.3/package.tgz
+357 silly lockFile f9e3018c-al-lib-node-modules-browser-sync tar:///usr/local/lib/node_modules/browser-sync
+358 verbose lock tar:///usr/local/lib/node_modules/browser-sync /home/nathan/.npm/f9e3018c-al-lib-node-modules-browser-sync.lock
+359 silly lockFile 5fdfc2d8--browser-sync-2-23-3-package-tgz tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz
+360 verbose lock tar:///home/nathan/.npm/browser-sync/2.23.3/package.tgz /home/nathan/.npm/5fdfc2d8--browser-sync-2-23-3-package-tgz.lock
+361 silly gunzTarPerm modes [ '755', '644' ]
+362 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+362 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+362 error   errno: 3,
+362 error   code: 'EACCES',
+362 error   path: '/usr/local/lib/node_modules',
+362 error   fstream_type: 'Directory',
+362 error   fstream_path: '/usr/local/lib/node_modules/browser-sync',
+362 error   fstream_class: 'DirWriter',
+362 error   fstream_stack:
+362 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+362 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+362 error      'Object.oncomplete (fs.js:107:15)' ] }
+363 error Please try running this command again as root/Administrator.
+364 error System Linux 3.19.0-25-generic
+365 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "browser-sync"
+366 error cwd /home/nathan/inigoglassgallery
+367 error node -v v0.10.25
+368 error npm -v 1.3.10
+369 error path /usr/local/lib/node_modules
+370 error fstream_path /usr/local/lib/node_modules/browser-sync
+371 error fstream_type Directory
+372 error fstream_class DirWriter
+373 error code EACCES
+374 error errno 3
+375 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+376 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+376 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+376 error fstream_stack Object.oncomplete (fs.js:107:15)
+377 verbose exit [ 3, true ]

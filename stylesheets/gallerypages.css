@@ -1,0 +1,13 @@
+body::after{
+  content: "";
+  display: inline-block;
+  background: black no-repeat center center fixed;
+  opacity: .4;
+  background-repeat: none;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index:-1;
+}
