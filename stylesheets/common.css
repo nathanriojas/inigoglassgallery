@@ -32,6 +32,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   padding:48px;
 
 }
+#Pay{
+  padding:10px;
+}
 
 #contact{
   color:gray;
@@ -191,6 +194,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     font-size: 1.6rem;
     margin: 35% 0% 10% 0%;
 
+  }
+  #GalleryTitles{
+    padding-top: 40px;
   }
   #OneYear{
     height:250px;
