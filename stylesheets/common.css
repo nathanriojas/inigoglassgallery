@@ -27,6 +27,12 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   color: #000 !important;
   background: linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
 
+#DiffBackground{
+  background: gray;
+  padding:48px;
+
+}
+
 #contact{
   color:gray;
 }
@@ -199,6 +205,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     padding-top: 150px;
     padding-bottom: 150px;
     width:60%;
+  }
+  #DiffBackground{
+    padding:24px;
   }
 }
 
