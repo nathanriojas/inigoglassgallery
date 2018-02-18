@@ -196,9 +196,9 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     font-size: .8rem;
   }
   #main{
-    padding-top: 50px;
-    padding-bottom: 50px;
-    width:70%;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    width:60%;
   }
 }
 
