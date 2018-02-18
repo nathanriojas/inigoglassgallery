@@ -62,20 +62,20 @@
 <div class="w3-content" style="max-width:2000px;margin-top:0px">
 
   <!-- Automatic Slideshow Images -->
-  <div class="w3-display-container w3-center">
-    <img src="/IMG_1647.png" class="w3-center" style="width:45%; border-radius:10px;">
+  <div class="w3-display-container w3-center" >
+    <img src="/IMG_1647.png" class="w3-center" style="border-radius:10px;" id="main">
   </div>
   
 
   <!-- The Band Section -->
   <div class="w3-container w3-content w3-center w3-padding-32 w3-dark-gray" style="max-width:2000px" id="About">
   <div class="w3-content w3-center" style="max-width:1000px">
-    <h2 class="w3-wide">WELCOME TO INIGO</h2>
+    <h2 class="w3-wide" id="SummaryTitle">WELCOME TO INIGO</h2>
     <p class = "description" id="Summary">Our hours are</p>
     <p class = "description" id="Summary">Friday-Saturday: 2pm - 7pm</p>
     <p class = "description" id="Summary">For appointments please <a href="mailto:info@inigoglassgallery.com" class="w3-text-orange w3-opacity"> email us.</a> </p>
     <p class = "description" id="Summary">We are located at <a href="https://www.google.com/maps/place/1700+Montopolis+Dr,+Austin,+TX+78741/@30.2272381,-97.7046092,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41ea28aa3a9:0x3645e7f78cbce27b!8m2!3d30.2272381!4d-97.7024205" class="w3-text-orange w3-opacity" >1700 Montopolis Dr, Unit C, Austin Texas, 78741</a> </p>
-    <p class="w3-justify" id="Summary">Now offering online purchasing! We specialize in high quality functional glass pieces but also offer non-functional pieces and pendants as well - all from a variety of renown artists. Our gallery is located in East Austin, with viewing times during regular business hours and opportunities to schedule private viewings.</p>
+    <p class="w3-justify" id="Summary">Now offering online purchasing! We specialize in high quality functional glass pieces and also offer non-functional pieces and pendants as well. Our gallery is located in East Austin, with viewing times during regular business hours and opportunities to schedule private viewings.</p>
   </div>
   </div>
 
@@ -115,17 +115,18 @@
   
 
   <!-- The Contact Section -->
+  <div id="contact">
   <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact">
     <h2 class="w3-wide w3-center">CONTACT <a href="mailto:info@inigoglassgallery.com"><i class="fa fa-envelope w3-hover-opacity"></i></a>
   <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
   <a href="https://www.instagram.com/inigo_glassgallery/"><i class="fa fa-instagram w3-hover-opacity"></i></a></h2>
-    <p class="w3-opacity w3-center"><i>Have questions or want to set up a private viewing? Let us know!</i></p>
+    <p class=" w3-center" id="Contact"><i>Have questions or want to set up a private viewing? Let us know!</i></p>
     <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-large w3-margin-bottom">
+      <div class="w3-col m6 w3-large w3-margin-bottom" id="Contact">
         <i class="fa fa-map-marker" style="width:30px"></i> Austin, TX<br>
         <i class="fa fa-envelope" style="width:30px"> </i> Email: info@inigoglassgallery.com<br>
       </div>
-      <div class="w3-col m6"> 
+      <div class="w3-col m6"> <!--
         <form action="/index.php" target="_blank">
           <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
             <div class="w3-half">
@@ -137,10 +138,10 @@
           </div>
           <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
           <button class="w3-button w3-black w3-section w3-right" id="submit" name="submit" type="submit">SEND</button>
-        </form> 
+        </form>  -->
       </div>
     </div>
-
+  </div>
   </div>
   
 <!-- End Page Content -->

@@ -27,7 +27,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   color: #000 !important;
   background: linear-gradient(top,#ff751a 25%,#42A5F5 75%)}
 
+#contact{
+  color:gray;
+}
 
+#main{
+    width: 45%;
+  }
 
 /* Slideshow container */
 .slideshow-container {
@@ -182,6 +188,17 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   }
   #OneYear{
     height:250px;
+  }
+  #SummaryTitle{
+    font-size: 1.3rem;
+  }
+  #Contact{
+    font-size: .8rem;
+  }
+  #main{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width:70%;
   }
 }
 
