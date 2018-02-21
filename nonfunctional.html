@@ -10,37 +10,8 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/gallerypages.css" media="screen">
-
-  <!-- Navbar -->
-  <div class="w3-top w3-text-white">
-   <div class="w3-bar w3-theme-gradient w3-left-align w3-text-white">
-    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right  w3-theme-gradient w3-hover-black w3-text-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
-    <a href="index.html" class="w3-bar-item w3-button w3-hover-black w3-text-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
-    <a href="about.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">About</a>
-    <a href="mailto:info@inigoglassgallery.com" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Email</a>
-    <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
-    <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a>
-      <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
-      <button class="w3-btn w3-text-white w3-hover-black" title="Gallery">Gallery <i class="fa fa-caret-down "></i></button>
-      <div class="w3-dropdown-content w3-theme-gradient w3-bar-block w3-text-white">
-        <a href="gallery.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Functional</a>
-        <a href="nonfunctional.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Non-Functional</a>
-        <a href="pendants.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Pendants</a>
-      </div>
-    </div>
-     <!-- Navbar on small screens -->
-    <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-text-white">
-      <a href="index.html" class="w3-bar-item w3-button">Home</a>
-      <a href="about.html" class="w3-bar-item w3-button">About</a>
-      <a href="mailto:info@inigoglassgallery.com" class="w3-bar-item w3-button">Email</a>
-      <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button">Facebook</a>
-      <a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button">Instagram</a>
-      <a href="gallery.html" class="w3-bar-item w3-button">Functional</a>
-      <a href="nonfunctional.html" class="w3-bar-item w3-button">Non-Functional</a>
-      <a href="pendants.html" class="w3-bar-item w3-button">Pendants</a>
-    </div>
-   </div>
-  </div>
+  <script src="https://www.w3schools.com/lib/w3.js"></script>
+  <div w3-include-html="navbartemplate.html"></div>
 </head>
 
 
@@ -130,7 +101,8 @@
 
 
 <script>
-
+// Call the html import for the navbar html
+w3.includeHTML();
 
 var slideIndex = 1;
 showSlides(slideIndex);
