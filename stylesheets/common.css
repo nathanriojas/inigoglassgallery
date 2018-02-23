@@ -149,6 +149,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     font-size: 1rem;
     line-height:1.5rem;
   }
+  #ContactTitle{
+    font-size: 1rem;
+    line-height:1.5rem;
+  }
+  #Contact{
+    font-size: 1rem;
+  }
   #OneYear{
     height:500px;
   }
@@ -177,6 +184,13 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     font-size: 1rem;
     line-height:1.5rem;
   }
+  #ContactTitle{
+    font-size: 1rem;
+    line-height:1.5rem;
+  }
+  #Contact{
+    font-size: 1rem;
+  }
   #OneYear{
     height:412px;
   }
@@ -204,8 +218,19 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   #SummaryTitle{
     font-size: 1.3rem;
   }
+  #Summary{
+    font-size: .95rem;
+    line-height:1.5rem;
+  }
+  #ContactTitle{
+    font-size: 1.7rem;
+
+  }
+  #ContactSubTitle{
+    font-size: .9rem;
+  }
   #Contact{
-    font-size: .8rem;
+    font-size: .95rem;
   }
   #main{
     padding-top: 150px;
