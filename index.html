@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
   <head>
     <meta charset="UTF-8">
     <title>Welcome to Inigo Glass Gallery</title>
@@ -18,19 +17,16 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/gallerypages.css" media="screen">
     <script src="https://www.w3schools.com/lib/w3.js"></script>
+    <!-- Navbar imported html -->
     <div w3-include-html="navbartemplate.html"></div>
-
   </head>
 
 
 
-
-
-
-
-
-  <!-- Page content -->
+<!-- Page content -->
 <div class="w3-content" style="max-width:2000px;margin-top:0px">
+
+
 
   <!-- Automatic Slideshow Images -->
   <div class="w3-display-container w3-center" >
@@ -38,88 +34,74 @@
   </div>
   
 
-  <!-- The Band Section -->
+  <!-- About Section -->
   <div class="w3-container w3-content w3-center w3-padding-32 w3-dark-gray" style="max-width:2000px" id="About">
-  <div class="w3-content w3-center" style="max-width:1000px">
-    <h2 class="w3-wide"  id="SummaryTitle">WELCOME TO INIGO</h2>
-    <!--<p class = "description" id="Summary">Our hours are</p> -->
-    <!--<p class = "description" id="Summary">Friday-Saturday: 2pm - 7pm</p> -->
-    <!--<p class = "description" id="Summary">For appointments please <a href="mailto:info@inigoglassgallery.com" class="w3-text-orange w3-opacity"> email us.</a> </p>-->
-    <!--<p class = "description" id="Summary">We are located at <a href="https://www.google.com/maps/place/1700+Montopolis+Dr,+Austin,+TX+78741/@30.2272381,-97.7046092,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41ea28aa3a9:0x3645e7f78cbce27b!8m2!3d30.2272381!4d-97.7024205" class="w3-text-orange w3-opacity" >1700 Montopolis Dr, Unit C, Austin Texas, 78741</a> </p>-->
-    <p class="w3-justify" id="Summary" style="margin-top:30px">Inigo Glass Gallery is a family owned and operated art gallery, specializing in functional glass pieces, located in East Austin, Texas. After many years of collecting art, and with much knowledge and passion for the industry, Inigo was born with a promise to provide Austin and all of Texas with exquisite functional glass art displayed in a proper setting with the right intentions. Each and every piece is carefully and thoughtfully handpicked by us with only 100% handmade glass on our shelves. We will always strive to provide exceptional customer service so that you will always want to come back to us, whether it be for a new piece or even just for an event!</p>
-
-<p class="w3-justify" id="Summary">We have payment options available so you don’t have to miss out on a dream piece! Please send us an email or message on Instagram for details.</p>
-
-<p class="w3-justify" id="Summary">Our gallery viewing hours are Friday and Saturday from 2 pm - 7 pm. 
-If those hours don’t work for you, please don’t hesitate to send us an email or message through social media for a private appointment.</p>
-  </div>
-  </div>
-
-
-
-<div class="w3-content w3-center w3-padding-16" style="max-width:1000px">
-<div class="mySlides w3-display-container w3-center" >
-    <a><img src="/OneYear.jpg" style="width:40%;" id="OneYear"></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+    <div class="w3-content w3-center" style="max-width:1000px">
+      <h2 class="w3-wide"  id="SummaryTitle">WELCOME TO INIGO</h2>
+      <p class="w3-justify" id="Summary" style="margin-top:30px">Inigo Glass Gallery is a family owned and operated art gallery, specializing in functional glass pieces, located in East Austin, Texas. After many years of collecting art, and with much knowledge and passion for the industry, Inigo was born with a promise to provide Austin and all of Texas with exquisite functional glass art displayed in a proper setting with the right intentions. Each and every piece is carefully and thoughtfully handpicked by us with only 100% handmade glass on our shelves. We will always strive to provide exceptional customer service so that you will always want to come back to us, whether it be for a new piece or even just for an event!</p>
+      <p class="w3-justify" id="Summary">We have payment options available so you don’t have to miss out on a dream piece! Please send us an email or message on Instagram for details.</p>
+      <p class="w3-justify" id="Summary">Our gallery viewing hours are Friday and Saturday from 2 pm - 7 pm. 
+      If those hours don’t work for you, please don’t hesitate to send us an email or message through social media for a private appointment.</p>
     </div>
   </div>
-<div class="mySlides w3-display-container w3-center">
-    <a href="gallery.html"><img src="/gallerypics/coolneon5.jpg" style="width:50%"></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Functional</h3>
+
+
+<!-- Art Slideshow -->
+  <div class="w3-content w3-center w3-padding-16" style="max-width:1000">
+    <div class="mySlides w3-display-container w3-center" style="margin-top:20px" >
+        <a><img src="/OneYear.jpg" style="" id="OneYear"></a>
+      </div>
+    <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
+        <a href="gallery.html"><img src="/gallerypics/coolneon5.jpg" id="homeSlides"></a>
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>Functional</h3>
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
+        <a href="nonfunctional.html"><img src="/nonfunctional/cloudbg.jpg" id="homeSlides"></a>
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>Non-Functional</h3> 
+        </div>
+      </div>
+      <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
+        <a href="pendants.html"><img src="/gallerypics/Pendants/Medusa3.jpg" id="homeSlides"></a>
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <h3>Pendants</h3>   
+        </div>
     </div>
   </div>
-  <div class="mySlides w3-display-container w3-center">
-    <a href="nonfunctional.html"><img src="/nonfunctional/cloudbg.jpg" style="width:50%"></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Non-Functional</h3> 
-    </div>
-  </div>
-  <div class="mySlides w3-display-container w3-center">
-    <a href="pendants.html"><img src="/gallerypics/Pendants/Medusa3.jpg" style="width:50%"></a>
-    <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-      <h3>Pendants</h3>   
-    </div>
-  </div>
-  </div>
 
 
-
-
-
-
-  
-
-  <!-- The Contact Section -->
+<!-- The Contact Section -->
   <div id="contact">
-  <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact">
-    <h2 class="w3-wide w3-center" id="ContactTitle">CONTACT <a href="mailto:info@inigoglassgallery.com"><i class="fa fa-envelope w3-hover-opacity" id="ContactTitle"></i></a>
-  <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/"><i class="fa fa-facebook-official w3-hover-opacity" id="ContactTitle"></i></a>
-  <a href="https://www.instagram.com/inigo_glassgallery/"><i class="fa fa-instagram w3-hover-opacity" id="ContactTitle"></i></a></h2>
-    <p class=" w3-center" id="ContactSubTitle"><i>Have questions or want to set up a private viewing? Let us know!</i></p>
-    <div class="w3-row w3-padding-32">
-      <div class="w3-col m6 w3-margin-bottom" id="Contact">
-        <i class="fa fa-map-marker" id="Contact"></i> <a href="https://www.google.com/maps/place/1700+Montopolis+Dr,+Austin,+TX+78741/@30.2272381,-97.7046092,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41ea28aa3a9:0x3645e7f78cbce27b!8m2!3d30.2272381!4d-97.7024205" class="w3-text-orange w3-opacity" >1700 Montopolis Dr, Unit C, Austin Texas, 78741</a> <br>
-        <i class="fa fa-envelope" id="Contact"> </i> Email: info@inigoglassgallery.com<br>
-        <i class="fa fa-hourglass" style="color:gray;" id="Contact"> </i> Friday - Saturday: 2pm - 7pm<br>
-      </div>
-      <div class="w3-col m6"> <!--
-        <form action="/index.php" target="_blank">
-          <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
-            </div>
-            <div class="w3-half">
-              <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
-            </div>
+      <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="Contact">
+        <h2 class="w3-wide w3-center" id="ContactTitle">CONTACT <a href="mailto:info@inigoglassgallery.com" id="ContactTitle"><i class="fa fa-envelope" id="iconM"></i></a>
+        <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" id="ContactTitle"><i class="fa fa-facebook-official" id="iconF"></i></a>
+        <a href="https://www.instagram.com/inigo_glassgallery/" id="ContactTitle"><i class="fa fa-instagram" id="iconI"></i></a></h2>
+        <p class=" w3-center" id="ContactSubTitle"><i>Have questions or want to set up a private viewing? Let us know!</i></p>
+        <div class="w3-row w3-padding-32">
+          <div class="w3-col m6 w3-margin-bottom" id="Contact">
+            <i class="fa fa-map-marker" id="Contact"></i> <a href="https://www.google.com/maps/place/1700+Montopolis+Dr,+Austin,+TX+78741/@30.2272381,-97.7046092,17z/data=!3m1!4b1!4m5!3m4!1s0x8644b41ea28aa3a9:0x3645e7f78cbce27b!8m2!3d30.2272381!4d-97.7024205" class="w3-text-orange w3-opacity" >1700 Montopolis Dr, Unit C, Austin Texas, 78741</a> <br>
+            <i class="fa fa-envelope" id="Contact"> </i> Email: info@inigoglassgallery.com<br>
+            <i class="fa fa-hourglass" style="color:gray;" id="Contact"> </i> Friday - Saturday: 2pm - 7pm<br>
           </div>
-          <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
-          <button class="w3-button w3-black w3-section w3-right" id="submit" name="submit" type="submit">SEND</button>
-        </form>  -->
+          <div class="w3-col m6"> <!--
+            <form action="/index.php" target="_blank">
+              <div class="w3-row-padding" style="margin:0 -16px 8px -16px">
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Name" required name="name">
+                </div>
+                <div class="w3-half">
+                  <input class="w3-input w3-border" type="text" placeholder="Email" required name="email">
+                </div>
+              </div>
+              <input class="w3-input w3-border" type="text" placeholder="Message" required name="message">
+              <button class="w3-button w3-black w3-section w3-right" id="submit" name="submit" type="submit">SEND</button>
+            </form>  -->
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-  </div>
   
 <!-- End Page Content -->
 </div>

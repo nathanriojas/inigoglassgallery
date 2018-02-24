@@ -44,6 +44,24 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     width: 45%;
   }
 
+#homeSlides{
+  width:50%;
+}
+
+#iconM:hover{
+  color:#604706;
+}
+
+#iconF:hover{
+  color:#3B5998;
+}
+
+#iconI:hover{
+  color:#bc2a8d;
+
+}
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
@@ -216,10 +234,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
     height:250px;
   }
   #SummaryTitle{
-    font-size: 1.3rem;
+    font-size: 1.5rem;
   }
   #Summary{
-    font-size: .95rem;
+    font-size: .8rem;
     line-height:1.5rem;
   }
   #ContactTitle{
@@ -232,6 +250,10 @@ body,h1,h2,h3,h4,h5 {font-family: "Raleway", sans-serif, color:white;}
   #Contact{
     font-size: .95rem;
   }
+
+  #homeSlides{
+  width:74%;
+}
   #main{
     padding-top: 150px;
     padding-bottom: 150px;
