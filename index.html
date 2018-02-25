@@ -104,8 +104,14 @@
   
 <!-- End Page Content -->
 </div>
+
 <!-- Add Google Maps -->
 <div id="googleMap" style="height:400px;" class="w3-grayscale-max"></div>
+
+
+<!-- Footer -->
+<footer class="w3-container w3-center w3-dark-gray" id="DiffBackground">
+</footer>
 
 <script>
 // Call the html import for the navbar html
@@ -148,42 +154,12 @@ function myMap()
   });
   marker.setMap(map);
 }
+
+
 </script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqVLgaIA5i-w63y8MHFQJI-QdPksA9OAQ&callback=myMap"></script>
 
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -192,9 +168,7 @@ To use this code on your website, get a free API key from Google.
 Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
 -->
 
-<!-- Footer -->
-<footer class="w3-container w3-center w3-dark-gray" id="DiffBackground">
-</footer>
+
 
 <script>
 
@@ -225,13 +199,6 @@ function myFunction() {
     }
 }
 
-// When the user clicks anywhere outside of the modal, close it
-var modal = document.getElementById('ticketModal');
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
 
 
 
