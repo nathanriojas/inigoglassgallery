@@ -1,5 +1,7 @@
 Website for Inigo Glass Gallery in Austin, Texas.
 
+inigoglassgallery.com
+
 Current improvements looking to address:
 
 - Adding an Add to Cart feature using paypal developer
