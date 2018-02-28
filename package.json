@@ -1,0 +1,25 @@
+{
+  "name": "inigoglassgallery",
+  "version": "1.0.0",
+  "description": "Website for Inigo Glass Gallery in Austin, Texas.",
+  "main": "optimize.js",
+  "dependencies": {
+    "imagemin": "^5.3.1"
+  },
+  "devDependencies": {
+    "gulp-imagemin": "^4.1.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanriojas/inigoglassgallery.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanriojas/inigoglassgallery/issues"
+  },
+  "homepage": "https://github.com/nathanriojas/inigoglassgallery#readme"
+}
