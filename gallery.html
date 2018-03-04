@@ -702,6 +702,21 @@
 // Call the html import for the navbar html
 w3.includeHTML();
 
+// Lazy Loading import
+(function(w, d){
+      var b = d.getElementsByTagName('body')[0];
+      var s = d.createElement("script"); s.async = true;
+      var v = !("IntersectionObserver" in w) ? "8.5.2" : "10.3.5";
+      s.src = "https://cdnjs.cloudflare.com/ajax/libs/vanilla-lazyload/" + v + "/lazyload.min.js";
+      w.lazyLoadOptions = {}; // Your options here. See "recipes" for more information aboyt async.
+      b.appendChild(s);
+    }(window, document));
+
+
+
+
+
+
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -725,8 +740,10 @@ function showSlides(n) {
   for (i = 0; i < dots.length; i++) {
       dots[i].className = dots[i].className.replace(" active", "");
   }
+
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
+  new LazyLoad();
 }
 
 
