@@ -743,7 +743,11 @@ function showSlides(n) {
 
   slides[slideIndex-1].style.display = "block";  
   dots[slideIndex-1].className += " active";
-  new LazyLoad();
+  var myLazyLoad = new LazyLoad({
+    container: document.getElementsByClassName('mySlides')
+});
+
+  //new LazyLoad();
 }
 
 

@@ -1,0 +1,10 @@
+import os
+
+def main():
+
+	for files in os.listdir("/home/nathan/inigoglassgallery/functional"): 
+		if str(files) == "Convert.py":
+			continue
+		os.system("convert " + str(files) + " -quality 80 " + str(files))
+
+main()
