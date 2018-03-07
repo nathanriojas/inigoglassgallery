@@ -10,9 +10,44 @@
   <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
   <link rel="stylesheet" type="text/css" href="stylesheets/gallerypages.css" media="screen">
-  <script src="https://www.w3schools.com/lib/w3.js"></script>
-  <div w3-include-html="navbartemplate.html"></div>
-  <script>w3.includeHTML();</script>
+      
+    <!-- Navbar -->
+    <div class="w3-top w3-text-white">
+     <div class="w3-bar w3-theme-gradient w3-left-align w3-text-white">
+      <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right  w3-theme-gradient w3-hover-black w3-text-white" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
+      <a href="index.html" class="w3-bar-item w3-button w3-hover-black w3-text-white"><i class="fa fa-home w3-margin-right"></i>Home</a>
+      <a href="index.html#About" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">About</a>
+      <a href="index.html#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Contact</a>
+      <!--<a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
+      <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a> -->
+      
+      <a href="events.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Events</a>
+      <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
+        <button class="w3-btn w3-text-white w3-hover-black" title="Gallery">Gallery <i class="fa fa-caret-down "></i></button>
+        <div class="w3-dropdown-content w3-theme-gradient w3-bar-block w3-text-white">
+          <a href="gallery.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Functional</a>
+          <a href="nonfunctional.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Non-Functional</a>
+          <a href="pendants.html" class="w3-bar-item w3-btn w3-hover-black w3-text-white">Pendants</a>
+        </div>
+      </div>
+       <!-- Navbar on small screens -->
+      <div id="navDemo" class="w3-bar-block w3-theme-d2 w3-hide w3-hide-large w3-hide-medium w3-text-white">
+        <a href="index.html" class="w3-bar-item w3-button">Home</a>
+        <a href="index.html#About" class="w3-bar-item w3-button">About</a>
+        <a href="index.html#Contact" class="w3-bar-item w3-button">Contact</a>
+        <!--
+        <a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button">Facebook</a>
+        <a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button">Instagram</a>
+        -->
+        <a href="events.html" class="w3-bar-item w3-button w3-hover-black w3-text-white">Events</a>
+        <a href="gallery.html" class="w3-bar-item w3-button">Functional</a>
+        <a href="nonfunctional.html" class="w3-bar-item w3-button">Non-Functional</a>
+        <a href="pendants.html" class="w3-bar-item w3-button">Pendants</a>
+      </div>
+     </div>
+    </div>
+
+  
 </head>
 
 
@@ -241,7 +276,7 @@
   
   <!-- Modal for full size images on click-->
   <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
-    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <span class="w3-button w3-black w3-large w3-display-topright">×</span>
     <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
       <img id="img01" class="w3-image">
       <p id="caption"></p>
@@ -284,21 +319,23 @@
 
 
 // Image loading at the same time
-var imgAddresses = ['/gallerypics/Pendants/Medusa3.jpg','/pendants/SkullPick.JPG','/gallerypics/Pendants/Hippie5.jpg','/pendants/PurpleGem.JPG','/gallerypics/Pendants/Jimmy2.jpg','/pendants/Arcade.JPG','/pendants/RigidFlower.JPG',"/pendants/Flower.JPG","/pendants/Yethling.JPG","/pendants/Pacifier.png","/pendants/Murdoc2.png","/pendants/Leaf.png", "/pendants/Akihiro.png","/pendants/Giraffe.png"];
+var imgAddresses = ['/pendants/Medusa3.jpg','/pendants/SkullPick.JPG','/pendants/Hippie5.jpg','/pendants/PurpleGem.JPG','/pendants/Jimmy2.jpg','/pendants/Arcade.JPG','/pendants/RigidFlower.JPG',"/pendants/Flower.JPG","/pendants/Yethling.JPG","/pendants/Pacifier.png","/pendants/Murdoc2.png","/pendants/Leaf.png", "/pendants/Akihiro.png","/pendants/Giraffe.png"];
 
-
+var imageObject = [];
 function loadImage(counter) {
   // Break out if no more images
   if (counter==imgAddresses.length) { return; }
 
   // Grab an image obj
   var I = document.getElementById("img"+counter);
+  imageObject.push(document.getElementById("img"+counter));
 
   // Monitor load or error events, moving on to next image in either case
   I.onload = I.onerror = function() { loadImage(counter+1); }
 
   //Change source (then wait for event)
   I.src = imgAddresses[counter];
+
 }
 
 loadImage(0);
