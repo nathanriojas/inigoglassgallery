@@ -64,7 +64,7 @@
   <h1 id="GalleryTitles">Pendants</h1>
 </div>
 
-<div class="slideshow-container">
+<div class="slideshow-container" id="arrowkeys">
 <!-- Overlay effect when opening sidebar on small screens -->
 <div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
 <!-- !PAGE CONTENT! -->
@@ -180,6 +180,18 @@
       </div>
 
   </div>
+  <script>
+  var imgAddresses = ['/pendants/Medusa3.jpg','/pendants/SkullPick.JPG','/pendants/Hippie5.jpg','/pendants/PurpleGem.JPG','/pendants/Jimmy2.jpg','/pendants/Arcade.JPG','/pendants/RigidFlower.JPG',"/pendants/Flower.JPG","/pendants/Yethling.JPG","/pendants/Pacifier.png","/pendants/Murdoc2.png","/pendants/Leaf.png", "/pendants/Akihiro.png","/pendants/Giraffe.png"];
+  document.getElementById("img0").src=imgAddresses[0]
+  document.getElementById("img1").src=imgAddresses[1]
+  document.getElementById("img2").src=imgAddresses[2]
+  document.getElementById("img3").src=imgAddresses[3]
+  document.getElementById("img4").src=imgAddresses[4]
+  document.getElementById("img5").src=imgAddresses[5]
+  document.getElementById("img6").src=imgAddresses[6]
+  document.getElementById("img7").src=imgAddresses[7]
+  document.getElementById("img8").src=imgAddresses[8]
+  </script>
  </div>
 
     
@@ -269,8 +281,20 @@
       </div>
 
   </div>
- </div>     
-    
+  <script>
+  var imgAddresses = ['/pendants/Medusa3.jpg','/pendants/SkullPick.JPG','/pendants/Hippie5.jpg','/pendants/PurpleGem.JPG','/pendants/Jimmy2.jpg','/pendants/Arcade.JPG','/pendants/RigidFlower.JPG',"/pendants/Flower.JPG","/pendants/Yethling.JPG","/pendants/Pacifier.png","/pendants/Murdoc2.png","/pendants/Leaf.png", "/pendants/Akihiro.png","/pendants/Giraffe.png"];
+  document.getElementById("img8").src=imgAddresses[8]
+  document.getElementById("img9").src=imgAddresses[9]
+  document.getElementById("img10").src=imgAddresses[10]
+  document.getElementById("img11").src=imgAddresses[11]
+  document.getElementById("img12").src=imgAddresses[12]
+  document.getElementById("img13").src=imgAddresses[13]
+  document.getElementById("img14").src=imgAddresses[14]
+  document.getElementById("img15").src=imgAddresses[15]
+  </script>
+ </div>   
+ <!-- Calling js file to hand arrow keys for carousel control -->  
+ <script src="arrowKeySlides.js"></script>
 </div>
 
   
@@ -317,12 +341,13 @@
       b.appendChild(s);
     }(window, document));
 
-
+/*
 // Image loading at the same time
 var imgAddresses = ['/pendants/Medusa3.jpg','/pendants/SkullPick.JPG','/pendants/Hippie5.jpg','/pendants/PurpleGem.JPG','/pendants/Jimmy2.jpg','/pendants/Arcade.JPG','/pendants/RigidFlower.JPG',"/pendants/Flower.JPG","/pendants/Yethling.JPG","/pendants/Pacifier.png","/pendants/Murdoc2.png","/pendants/Leaf.png", "/pendants/Akihiro.png","/pendants/Giraffe.png"];
 
 var imageObject = [];
 function loadImage(counter) {
+
   // Break out if no more images
   if (counter==imgAddresses.length) { return; }
 
@@ -335,13 +360,30 @@ function loadImage(counter) {
 
   //Change source (then wait for event)
   I.src = imgAddresses[counter];
+  
+  document.getElementById("img0").src=imgAddresses[0]
+  document.getElementById("img1").src=imgAddresses[1]
+  document.getElementById("img2").src=imgAddresses[2]
+  document.getElementById("img3").src=imgAddresses[3]
+  document.getElementById("img4").src=imgAddresses[4]
+  document.getElementById("img5").src=imgAddresses[5]
+  document.getElementById("img6").src=imgAddresses[6]
+  document.getElementById("img7").src=imgAddresses[7]
+  document.getElementById("img8").src=imgAddresses[8]
+  document.getElementById("img9").src=imgAddresses[9]
+  document.getElementById("img10").src=imgAddresses[10]
+  document.getElementById("img11").src=imgAddresses[11]
+  document.getElementById("img12").src=imgAddresses[12]
+  document.getElementById("img13").src=imgAddresses[13]
+  document.getElementById("img14").src=imgAddresses[14]
+  document.getElementById("img15").src=imgAddresses[15]
 
 }
 
 loadImage(0);
 
 
-
+*/
 
 
 
@@ -375,10 +417,6 @@ function showSlides(n) {
     container: document.getElementsByClassName('mySlides')
 });
 }
-
-
-
-
 
 // Script to open and close sidebar
 function w3_open() {
