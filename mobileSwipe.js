@@ -19,7 +19,7 @@ function handleTouchMove(evt) {
 
     var xDiff = xDown - xUp;
     var yDiff = yDown - yUp;
-
+    if(Math.abs( xDiff )+Math.abs( yDiff )>150){ //to deal with to short swipes
     if ( Math.abs( xDiff ) > Math.abs( yDiff ) ) {/*most significant*/
         if ( xDiff > 0 ) {
             /* left swipe */ 
@@ -31,5 +31,6 @@ function handleTouchMove(evt) {
     } 
     /* reset values */
     xDown = null;
-    yDown = null;                                             
+    yDown = null;  
+    }                                           
 };
