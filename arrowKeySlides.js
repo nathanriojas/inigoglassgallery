@@ -27,11 +27,9 @@ function handleKeyboardEvent(evt) {
   switch (keycode) {
     case Key.LEFT:
       plusSlides(-1);
-      window.alert('left')
       break;
     case Key.RIGHT:
       plusSlides(1);
-      console.log('right')
       break;
   }
 }
