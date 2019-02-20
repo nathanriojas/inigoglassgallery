@@ -15,7 +15,7 @@
     <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/common.css" media="screen">
     <link rel="stylesheet" type="text/css" href="stylesheets/gallerypages.css" media="screen">
-       
+
     <!-- Navbar -->
     <div class="w3-top w3-text-white">
      <div class="w3-bar w3-theme-gradient w3-left-align w3-text-white">
@@ -25,7 +25,7 @@
       <a href="index.html#Contact" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Contact</a>
       <!--<a href="https://www.facebook.com/Inigo-Glass-Gallery-723537951147841/about/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Facebook</a>
       <a href="instagram"><a href="https://www.instagram.com/inigo_glassgallery/" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Instagram</a> -->
-      
+
       <a href="events.html" class="w3-bar-item w3-button w3-hide-small w3-hover-black w3-text-white">Events</a>
       <div class="w3-dropdown-hover w3-hide-small w3-hover-black w3-text-white">
         <button class="w3-btn w3-text-white w3-hover-black">Gallery <i class="fa fa-caret-down "></i></button>
@@ -52,7 +52,7 @@
      </div>
     </div>
 
-  
+
   </head>
 
 
@@ -66,7 +66,7 @@
   <div class="w3-display-container w3-center" >
     <img src="InigoLogo.png" class="w3-center" style="border-radius:10px;" id="main">
   </div>
-  
+
 
   <!-- About Section -->
   <div class="w3-container w3-content w3-center w3-padding-32 w3-dark-gray" style="max-width:2000px" id="About">
@@ -74,7 +74,7 @@
       <h2 class="w3-wide"  id="SummaryTitle">WELCOME TO INIGO</h2>
       <p class="w3-justify" id="Summary" style="margin-top:30px">Inigo Glass Gallery is a family owned and operated art gallery, specializing in functional glass pieces, located in East Austin, Texas. After many years of collecting art, and with much knowledge and passion for the industry, Inigo was born with a promise to provide Austin and all of Texas with exquisite functional glass art displayed in a proper setting with the right intentions. Each and every piece is carefully and thoughtfully handpicked by us with only 100% handmade glass on our shelves. We will always strive to provide exceptional customer service so that you will always want to come back to us, whether it be for a new piece or even just for an event!</p>
       <p class="w3-justify" id="Summary">We have payment options available so you don’t have to miss out on a dream piece! Please send us an email or message on Instagram for details.</p>
-      <p class="w3-justify" id="Summary">Our gallery viewing hours are Friday and Saturday from 2 pm - 7 pm. 
+      <p class="w3-justify" id="Summary">Our gallery viewing hours are Friday and Saturday from 2 pm - 7 pm.
       If those hours don’t work for you, please don’t hesitate to send us an email or message through social media for a private appointment.</p>
     </div>
   </div>
@@ -82,12 +82,16 @@
 
 <!-- Art Slideshow -->
   <div class="w3-content w3-center w3-padding-16" style="max-width:1000">
-  
-  <!-- uncomment this to add a picture for event related flyers
-    <div class="mySlides w3-display-container w3-center" style="margin-top:20px" >
-        <a href="events.html"><img src="/OneYear.jpg" style="" id="OneYear"></a>
+<!-- uncomment this to add a picture for event related flyers -->
+    <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
+        <a href="events.html" title ="Check out coming events"><img src="/Punty.jpg" id="OneYear"></a>
+        <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
+          <!--<h3>Upcoming</h3>-->
+        </div>
     </div>
-  -->
+
+
+
     <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
         <a href="gallery.html" title ="Enter functional gallery"><img src="/gallerypics/coolneon5.jpg" id="homeSlides"></a>
         <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
@@ -98,14 +102,14 @@
     <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
         <a href="nonfunctional.html" title ="Enter non-functional gallery"><img src="/nonfunctional/cloudbg.jpg" id="homeSlides"></a>
         <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-          <h3>Non-Functional</h3> 
+          <h3>Non-Functional</h3>
         </div>
     </div>
 
     <div class="mySlides w3-display-container w3-center" style="margin-top:20px">
         <a href="pendants.html" title ="Enter pendant gallery"><img src="/gallerypics/Pendants/Medusa3.jpg" id="homeSlides"></a>
         <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-          <h3>Pendants</h3>   
+          <h3>Pendants</h3>
         </div>
     </div>
 
@@ -142,7 +146,7 @@
         </div>
       </div>
     </div>
-  
+
 <!-- End Page Content -->
 </div>
 
@@ -222,12 +226,12 @@ function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");
     for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
+       x[i].style.display = "none";
     }
     myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 4000);    
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
 }
 
 // Used to toggle the menu on small screens when clicking on the menu button
@@ -235,7 +239,7 @@ function myFunction() {
     var x = document.getElementById("navDemo");
     if (x.className.indexOf("w3-show") == -1) {
         x.className += " w3-show";
-    } else { 
+    } else {
         x.className = x.className.replace(" w3-show", "");
     }
 }
